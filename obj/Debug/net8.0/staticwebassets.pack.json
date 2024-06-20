@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SoSucKhoe.bundle.scp.css"
     },
     {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\forgotpassword.css",
+      "PackagePath": "staticwebassets\\css\\forgotpassword.css"
+    },
+    {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\header.css",
       "PackagePath": "staticwebassets\\css\\header.css"
     },

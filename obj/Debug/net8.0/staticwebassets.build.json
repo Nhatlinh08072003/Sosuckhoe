@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2roULPZgk6fXwuFpKXjJM4nGzmM6jqx9gHHuuKGtPnY=",
+  "Hash": "emMVAP1vu7ybMilAvsLRRyJ7C2ohbbnfTalL5Kqide0=",
   "Source": "SoSucKhoe",
   "BasePath": "_content/SoSucKhoe",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SoSucKhoe.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\forgotpassword.css",
+      "SourceId": "SoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/SoSucKhoe",
+      "RelativePath": "css/forgotpassword.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\forgotpassword.css"
     },
     {
       "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\header.css",

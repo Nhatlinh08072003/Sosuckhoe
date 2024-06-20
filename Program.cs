@@ -34,4 +34,9 @@ app.MapControllerRoute(
     pattern: "/register",
     defaults: new { controller = "Account", action = "Register" }
 );
+app.MapControllerRoute(
+    name: "ForgotPassword",
+    pattern: "/forgot",
+    defaults: new { controller = "Account", action = "ForgotPassword" }
+);
 app.Run();

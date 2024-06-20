@@ -64,3 +64,9 @@ header {
     gap: 20px;
     font-weight: bold;
 }
+.Orther-login,
+.Orther-register
+{
+    color: #000;
+    text-decoration: none;
+}

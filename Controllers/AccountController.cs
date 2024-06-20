@@ -21,6 +21,10 @@ public class AccountController : Controller
     {
         return View();
     }
+    public IActionResult Forgotpassword()
+    {
+        return View();
+    }
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
