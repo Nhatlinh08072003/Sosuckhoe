@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\lichtiemchung.css",
+      "PackagePath": "staticwebassets\\css\\lichtiemchung.css"
+    },
+    {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsuckhoe.css",
+      "PackagePath": "staticwebassets\\css\\thongtinsuckhoe.css"
     },
     {
       "Id": "D:\\SoSucKhoe\\wwwroot\\favicon.ico",

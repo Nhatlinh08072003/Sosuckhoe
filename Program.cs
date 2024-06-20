@@ -39,4 +39,29 @@ app.MapControllerRoute(
     pattern: "/forgot",
     defaults: new { controller = "Account", action = "ForgotPassword" }
 );
+app.MapControllerRoute(
+    name: "Thongtinsuckhoe",
+    pattern: "/thongtinsuckhoe",
+    defaults: new { controller = "Health", action = "Thongtinsuckhoe" }
+);
+app.MapControllerRoute(
+    name: "Suckhoehangngay",
+    pattern: "/suckhoehangngay",
+    defaults: new { controller = "Health", action = "Suckhoehangngay" }
+);
+app.MapControllerRoute(
+    name: "Chiphi",
+    pattern: "/chiphi",
+    defaults: new { controller = "Health", action = "Chiphi" }
+);
+app.MapControllerRoute(
+    name: "Theodoisuckhoe",
+    pattern: "/theodoisuckhoe",
+    defaults: new { controller = "Health", action = "Theodoisuckhoe" }
+);
+app.MapControllerRoute(
+    name: "Lichtiemchung",
+    pattern: "/lichtiemchung",
+    defaults: new { controller = "Health", action = "LichTiemchung" }
+);
 app.Run();
