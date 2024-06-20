@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+}
+.shop-nav {
+    display: flex;
+    width: 100%;
+}
+.logo-shop img {
+    width: 30%;
+}
+.menu-shop {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    width: 30%;
+}
+.list-menu {
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    width: 80%;
+}
+.list-menu:hover .list-menu-item,
+.list-menu.active .list-menu-item {
+    display: block;
+}
+.list-menu-item {
+    display: none;
+    position: absolute;
+    top: 30px;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    right: 30px;
+    border: 1px solid #000;
+}
+.sum-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+    transition: 3s;
+}
+.box-item-list {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.search-container {
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+.Orther {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    font-weight: bold;
+}

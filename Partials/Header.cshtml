@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="~/Css/header.css">
+<header>
+    <div class="shop-nav">
+        <div style="display: none;">j;afafnafaf</div>
+        <div class="logo-shop" style="width: 20%;">
+            <img src="
+                https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2m8NiRX6-wxSoBw_C4cRDKCLFg_wySkYk0ymWLaSAyq3n3Y0o"
+                alt="">
+        </div>
+        <div class="menu-shop">
+            <div class="list-menu" style="">Tiêm chủng
+                <div class="list-menu-item">
+                    <ul class="sum-list">
+                        <li class="box-item-list">Lịch tiêm chủng</li>
+                        <li class="box-item-list">Nhập tiêm chủng</li>
+                        <li class="box-item-list">3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-menu">Khám bệnh
+                <div class="list-menu-item">
+                    <ul class="sum-list">
+                        <li class="box-item-list">Bệnh đột ngột</li>
+                        <li class="box-item-list">Sức khỏe định kì</li>
+                        <li class="box-item-list">Phản ánh triệu chứng</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="list-menu">Sức khỏe
+                <div class="list-menu-item">
+                    <ul class="sum-list">
+                        <li class="box-item-list">Thông tin sức khỏe</li>
+                        <li class="box-item-list">Sức khỏe hằng ngày</li>
+                        <li class="box-item-list">Chi phí</li>
+                        <li class="box-item-list">Theo dõi sức khỏe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="search-container" style="">
+            <form action="/search" method="get">
+                <input type="text" style="border-radius:10px;padding:5px 20px" placeholder="Tìm kiếm..." name="query">
+                <button style="border-radius:10px;padding: 5px 10px;" type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+        <div class="Orther" style="">
+            <a href="/login">
+                <div class="Orther-login">Đăng nhập</div>
+            </a>
+            <a href="/register">
+                <div class="Orther-register">Đăng kí</div>
+            </a>
+        </div>
+    </div>
+</header>
+<script>
+    document.querySelectorAll('.list-menu').forEach(menu => {
+        menu.addEventListener('click', () => {
+            // Close all other open menus
+            document.querySelectorAll('.list-menu').forEach(m => {
+                if (m !== menu) {
+                    m.classList.remove('active');
+                }
+            });
+            // Toggle the clicked menu
+            menu.classList.toggle('active');
+        });
+    });
+
+    // Optional: Close menu if clicked outside
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('.list-menu')) {
+            document.querySelectorAll('.list-menu').forEach(menu => {
+                menu.classList.remove('active');
+            });
+        }
+    });
+</script>

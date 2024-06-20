@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\SoSucKhoe.bundle.scp.css"
     },
     {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\site.css",

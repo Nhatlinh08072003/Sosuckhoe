@@ -28,3 +28,4 @@ D:\SoSucKhoe\obj\Debug\net8.0\refint\SoSucKhoe.dll
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.pdb
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.genruntimeconfig.cache
 D:\SoSucKhoe\obj\Debug\net8.0\ref\SoSucKhoe.dll
+D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.sourcelink.json

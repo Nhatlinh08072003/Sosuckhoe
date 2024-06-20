@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Css/login.css">
+</head>
+<div class="Login">
+    <div class="logo-login">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2m8NiRX6-wxSoBw_C4cRDKCLFg_wySkYk0ymWLaSAyq3n3Y0o"
+            alt="">
+    </div>
+    <div class="login-container">
+        <span>ĐĂNG NHẬP</span>
+        <form action="/submit-login" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <div class="forgot-password">
+                <a href="/forgot-password">Quên mật khẩu?</a>
+            </div>
+            <input type="submit" value="Login">
+            <div class="create-account">
+                <span>Bạn chưa có tài khoản <a href="/register">Đăng kí</a></span>
+            </div>
+        </form>
+    </div>
+</div>

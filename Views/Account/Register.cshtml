@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Css/register.css">
+</head>
+<div class="Register">
+    <div class="logo-Register">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2m8NiRX6-wxSoBw_C4cRDKCLFg_wySkYk0ymWLaSAyq3n3Y0o"
+            alt="">
+    </div>
+    <div class="Register-container">
+        <span>ĐĂNG KÍ</span>
+        <form action="/submit-register" method="post">
+            <input type="text" name="phonenumber" placeholder="Số điện thoại" required>
+            <input type="text" name="fullname" placeholder="Tên người dùng" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="text" name="address" placeholder="Địa chỉ" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="retypepassword" placeholder="Nhập lại Password" required>
+
+            <input type="submit" value="Register">
+            <div class="create-account">
+                <span>Bạn đã có tài khoản <a href="/login">Đăng nhập</a></span>
+            </div>
+        </form>
+    </div>
+</div>
