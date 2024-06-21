@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Thông tin sau khi khám";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/thongtinsaukham.css">
+</head>
+
+<body>
+    <div class="history-vacxin">
+        <div class="history-vacxin-title">
+            <span class="title-history-vacxin">Thông tin sau khám</span>
+        </div>
+        <div class="history-vacxin-form">
+            <form action="/submit-history-vacxin" method="post-form">
+                <div class="form-group">
+                    <label for="ten-thanh-vien">Tên thành viên</label>
+                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ngay-tiem">Ngày khám bệnh </label>
+                    <input type="date" id="ngay-tiem" name="Ngày tiêm" required>
+                </div>
+                <div class="form-group">
+                    <label for="loai-vac-xin">Bác sĩ</label>
+                    <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required>
+                </div>
+                <div class="form-group">
+                    <label for="loai-tiem">Loại bệnh</label>
+                    <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required>
+                </div>
+                <div class="form-group">
+                    <label for="dia-diem-tiem">Kết quả</label>
+                    <input type="date" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required>
+                </div>
+                <div class="form-group">
+                    <label for="chi-phi">Kê thuốc</label>
+                    <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" required>
+                </div>
+                <div class="form-group">
+                    <label for="chi-phi">Tổng chi phí</label>
+                    <input type="text" id="dia-chi-tiem" name="Địa chỉ tiêm" placeholder="Nhập vào đây" required>
+                </div>
+                <div class="history-vacxin-button">
+                    <input type="submit" value="Lưu" style="background: #107CFA;">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
