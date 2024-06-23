@@ -33,6 +33,14 @@ public class HealthController : Controller
     {
         return View();
     }
+    public IActionResult Dangkitiemchung()
+    {
+        return View();
+    }
+    public IActionResult Thongtinsaukham()
+    {
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

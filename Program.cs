@@ -64,4 +64,15 @@ app.MapControllerRoute(
     pattern: "/lichtiemchung",
     defaults: new { controller = "Health", action = "LichTiemchung" }
 );
+app.MapControllerRoute(
+    name: "Dangkitiemchung",
+    pattern: "/dangkitiemchung",
+    defaults: new { controller = "Health", action = "Dangkitiemchung" }
+);
+app.MapControllerRoute(
+    name: "Thongtinsaukham",
+    pattern: "/thongtinsaukham",
+    defaults: new { controller = "Health", action = "Thongtinsaukham" }
+);
+
 app.Run();
