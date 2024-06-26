@@ -62,6 +62,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFBoaWV1c3Vja2hvZWRpbmhraS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SoSucKhoe/Views/Health/Thongkephieusuckhoe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25na2VwaGlldXN1Y2tob2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SoSucKhoe/Views/Health/Thongketiemchung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25na2V0aWVtY2h1bmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SoSucKhoe/Views/Health/Thongtinsaukham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25ndGluc2F1a2hhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

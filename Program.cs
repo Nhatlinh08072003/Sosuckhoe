@@ -114,23 +114,15 @@ app.MapControllerRoute(
     defaults: new { controller = "Health", action = "Thongtinsaukham" }
 );
 app.MapControllerRoute(
-    name: "Phieukhamsuckhoe",
-    pattern: "/phieukhamsuckhoe",
-    defaults: new { controller = "Health", action = "Phieukhamsuckhoe" }
+    name: "Thongketiemchung",
+    pattern: "/thongketiemchung",
+    defaults: new { controller = "Health", action = "Thongketiemchung" }
 );
+
 app.MapControllerRoute(
-    name: "Phieusuckhoedinhki",
-    pattern: "/phieusuckhoedinhki",
-    defaults: new { controller = "Health", action = "Phieusuckhoedinhki" }
+    name: "Thongkephieusuckhoe",
+    pattern: "/thongkephieusuckhoe",
+    defaults: new { controller = "Health", action = "Thongkephieusuckhoe" }
 );
-app.MapControllerRoute(
-    name: "Thongbao",
-    pattern: "/thongbao",
-    defaults: new { controller = "Account", action = "Thongbao" }
-);
-app.MapControllerRoute(
-    name: "Chitietlichtiem",
-    pattern: "/chitietlichtiem",
-    defaults: new { controller = "Health", action = "Chitietlichtiem" }
-);
+
 app.Run();
