@@ -13,6 +13,7 @@ D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.csproj.CoreCompileInputs.cache
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.MvcApplicationPartsAssemblyInfo.cache
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.RazorAssemblyInfo.cache
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.RazorAssemblyInfo.cs
+D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.sourcelink.json
 D:\SoSucKhoe\obj\Debug\net8.0\staticwebassets.build.json
 D:\SoSucKhoe\obj\Debug\net8.0\staticwebassets.development.json
 D:\SoSucKhoe\obj\Debug\net8.0\staticwebassets\msbuild.SoSucKhoe.Microsoft.AspNetCore.StaticWebAssets.props
@@ -28,6 +29,7 @@ D:\SoSucKhoe\obj\Debug\net8.0\refint\SoSucKhoe.dll
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.pdb
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.genruntimeconfig.cache
 D:\SoSucKhoe\obj\Debug\net8.0\ref\SoSucKhoe.dll
+<<<<<<< HEAD
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.sourcelink.json
 D:\Git\Sosuckhoe\bin\Debug\net8.0\appsettings.Development.json
 D:\Git\Sosuckhoe\bin\Debug\net8.0\appsettings.json
@@ -106,3 +108,5 @@ D:\Sosuckhoe\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Exte
 D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.csproj.AssemblyReference.cache
 D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.csproj.CopyComplete
 D:\Sosuckhoe\bin\Debug\net8.0\Newtonsoft.Json.dll
+=======
+>>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc

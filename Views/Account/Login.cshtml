@@ -3,24 +3,27 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/Css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<div class="Login">
-    <div class="logo-login">
+<div class="flex flex-col items-center">
+    <div class="mb-5">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2m8NiRX6-wxSoBw_C4cRDKCLFg_wySkYk0ymWLaSAyq3n3Y0o"
-            alt="">
+            alt="" class="w-24">
     </div>
-    <div class="login-container">
-        <span>ĐĂNG NHẬP</span>
-        <form action="/submit-login" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <div class="forgot-password">
-                <a href="/forgot">Quên mật khẩu?</a>
+    <div class="w-96 p-5 bg-white shadow-lg rounded-lg text-center">
+        <span class="block text-xl font-bold mb-5">ĐĂNG NHẬP</span>
+        <form action="/submit-login" method="post" class="flex flex-col">
+            <input type="text" name="username" placeholder="Username" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="password" name="password" placeholder="Password" required
+                class="p-2 my-2 border border-black rounded">
+            <div class="text-right my-2">
+                <a href="/forgot" class="text-blue-500 hover:underline">Quên mật khẩu?</a>
             </div>
-            <input type="submit" value="Login">
-            <div class="create-account">
-                <span>Bạn chưa có tài khoản <a href="/register">Đăng kí</a></span>
+            <input type="submit" value="Login"
+                class="p-2 my-2 border-none rounded bg-green-500 text-white cursor-pointer hover:bg-green-600">
+            <div class="mt-4">
+                <span>Bạn chưa có tài khoản <a href="/register" class="text-blue-500 hover:underline">Đăng kí</a></span>
             </div>
         </form>
     </div>
