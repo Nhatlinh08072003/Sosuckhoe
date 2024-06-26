@@ -146,4 +146,9 @@ app.MapControllerRoute(
     pattern: "/thongketiemchung",
     defaults: new { controller = "Health", action = "Thongketiemchung" }
 );
+app.MapControllerRoute(
+    name: "Thongkesuckhoedinhki",
+    pattern: "/thongkesuckhoedinhki",
+    defaults: new { controller = "Health", action = "Thongkesuckhoedinhki" }
+);
 app.Run();
