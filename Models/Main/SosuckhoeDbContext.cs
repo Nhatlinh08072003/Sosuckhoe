@@ -70,7 +70,7 @@ public partial class SosuckhoeDbContext : DbContext
 
             entity.Property(e => e.NgayKham)
                 .HasDefaultValueSql("(getdate())")
-                .HasColumnType("date");
+                .HasMaxLength(30);
 
             entity.HasOne(d => d.Person).WithMany(p => p.PhieuDinhKies)
                 .HasForeignKey(d => d.PersonId)
@@ -90,7 +90,7 @@ public partial class SosuckhoeDbContext : DbContext
             entity.Property(e => e.LoaiBenh).HasMaxLength(255);
             entity.Property(e => e.LuuY).HasMaxLength(255);
             entity.Property(e => e.MoTaToaThuoc).HasMaxLength(255);
-            entity.Property(e => e.NgayKham).HasColumnType("date");
+            entity.Property(e => e.NgayKham).HasMaxLength(30);
             entity.Property(e => e.TenBenh).HasMaxLength(255);
             entity.Property(e => e.TrieuChung).HasMaxLength(255);
 

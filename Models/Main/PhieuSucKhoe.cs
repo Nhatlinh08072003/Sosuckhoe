@@ -9,7 +9,7 @@ public partial class PhieuSucKhoe
 
     public int? PersonId { get; set; }
 
-    public DateTime? NgayKham { get; set; }
+    public string? NgayKham { get; set; }
 
     public string? Diadiem { get; set; }
 
@@ -30,6 +30,8 @@ public partial class PhieuSucKhoe
     public string? MoTaToaThuoc { get; set; }
 
     public string? HinhToaThuoc { get; set; }
+    public string? Hoten { get; set; }
+
 
     public virtual Person? Person { get; set; }
 }

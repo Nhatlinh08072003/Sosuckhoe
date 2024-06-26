@@ -6,6 +6,8 @@ namespace SoSucKhoe.Models.Main;
 public partial class Person
 {
     public int Id { get; set; }
+    public int Age { get; set; }
+
 
     public string? Hoten { get; set; }
 
@@ -18,6 +20,8 @@ public partial class Person
     public string? Pass { get; set; }
 
     public string? RoleUser { get; set; }
+    public string? Gender { get; set; }
+
 
     public virtual ICollection<Lichtiem> Lichtiems { get; set; } = new List<Lichtiem>();
 

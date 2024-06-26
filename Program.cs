@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<SosuckhoeDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CoffeeDBConnectionString"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SosuckhoeConnectionString"));
     options.EnableSensitiveDataLogging(false);
 });
 
@@ -123,6 +123,13 @@ app.MapControllerRoute(
     name: "Thongkephieusuckhoe",
     pattern: "/thongkephieusuckhoe",
     defaults: new { controller = "Health", action = "Thongkephieusuckhoe" }
+);
+
+
+app.MapControllerRoute(
+    name: "Thongbao",
+    pattern: "/thongbao",
+    defaults: new { controller = "Account", action = "Thongbao" }
 );
 
 app.Run();

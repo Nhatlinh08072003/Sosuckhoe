@@ -8,7 +8,7 @@
 <div class="flex flex-col items-center  ">
     <div class="w-96 p-5 bg-white shadow-lg rounded-lg text-center max-w-[600px] ">
         <span class="block text-xl font-bold mb-5">ĐĂNG KÍ</span>
-        <form action="/submit-register" method="post" class="flex flex-col ">
+        <form id="addUserForm" method="post" enctype="multipart/form-data" action="/account/adduser">
             <input type="text" name="phonenumber" placeholder="Số điện thoại" required
                 class="p-2 my-2 border border-black rounded">
             <input type="text" name="fullname" placeholder="Tên người dùng" required
@@ -17,18 +17,19 @@
                 class="p-2 my-2 border border-black rounded">
             <input type="text" name="address" placeholder="Địa chỉ" required
                 class="p-2 my-2 border border-black rounded">
+            <input type="text" name="role" placeholder="Vai trò" required class="p-2 my-2 border border-black rounded">
             <input type="number" name="age" placeholder="Tuổi" required class="p-2 my-2 border border-black rounded">
             <div class="my-2">
                 <label class="block text-left mb-1">Giới tính:</label>
                 <div class="flex justify-around">
                     <label class="flex items-center">
-                        <input type="radio" name="gender" value="male" class="mr-2">Nam
+                        <input type="radio" name="gender" value="Nam" class="mr-2">Nam
                     </label>
                     <label class="flex items-center">
-                        <input type="radio" name="gender" value="female" class="mr-2">Nữ
+                        <input type="radio" name="gender" value="Nữ" class="mr-2">Nữ
                     </label>
                     <label class="flex items-center">
-                        <input type="radio" name="gender" value="other" class="mr-2">Khác
+                        <input type="radio" name="gender" value="Khác" class="mr-2">Khác
                     </label>
                 </div>
             </div>
@@ -44,3 +45,50 @@
         </form>
     </div>
 </div>
+<script>
+    document.getElementById('addUserForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var formData = new FormData();
+        var password = document.querySelector('input[name="password"]').value;
+        var passwordRepeat = document.querySelector('input[name="retypepassword"]').value;
+        if (password !== passwordRepeat) {
+            alert("Mật khẩu nhập lại không khớp. Vui lòng thử lại.");
+            return;
+        }
+        formData.append('phonenumber', document.querySelector('input[name="phonenumber"]').value);
+        formData.append('fullname', document.querySelector('input[name="fullname"]').value);
+        formData.append('age', document.querySelector('input[name="age"]').value);
+        formData.append('username', document.querySelector('input[name="username"]').value);
+        formData.append('password', document.querySelector('input[name="password"]').value);
+        formData.append('address', document.querySelector('input[name="address"]').value);
+        var gender = document.querySelector('input[name="gender"]:checked');
+        if (gender) {
+            formData.append('gender', gender.value);
+        } else {
+            alert("Please select a gender.");
+            return;
+        }
+        formData.append('role', document.querySelector('input[name="role"]').value);
+
+
+
+        fetch('/account/adduser', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    window.location.href = '/account/login';
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi gửi yêu cầu:', error);
+                alert('Lỗi khi gửi yêu cầu.');
+            });
+    });
+</script>

@@ -19,7 +19,7 @@ public partial class PhieuDinhKy
 
     public double? CanNang { get; set; }
 
-    public DateTime? NgayKham { get; set; }
+    public string? NgayKham { get; set; }
 
     public virtual Person? Person { get; set; }
 }
