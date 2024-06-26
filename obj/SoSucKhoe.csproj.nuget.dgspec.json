@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Sosuckhoe\\SoSucKhoe.csproj": {}
+    "D:\\Sosuckhoe\\SoSucKhoe.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Sosuckhoe\\SoSucKhoe.csproj": {
+    "D:\\Sosuckhoe\\SoSucKhoe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Sosuckhoe\\SoSucKhoe.csproj",
+        "projectUniqueName": "D:\\Sosuckhoe\\SoSucKhoe.csproj",
         "projectName": "SoSucKhoe",
-        "projectPath": "D:\\Git\\Sosuckhoe\\SoSucKhoe.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Sosuckhoe\\obj\\",
+        "projectPath": "D:\\Sosuckhoe\\SoSucKhoe.csproj",
+        "packagesPath": "C:\\Users\\kimla\\.nuget\\packages\\",
+        "outputPath": "D:\\Sosuckhoe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kimla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

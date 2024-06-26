@@ -9,91 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SoSucKhoe
 build_property.RootNamespace = SoSucKhoe
-build_property.ProjectDir = D:\Git\Sosuckhoe\
+build_property.ProjectDir = D:\Sosuckhoe\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Git\Sosuckhoe
+build_property.MSBuildProjectDirectory = D:\Sosuckhoe
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Git/Sosuckhoe/Partials/Footer.cshtml]
+[D:/Sosuckhoe/Partials/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFydGlhbHNcRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Partials/Header.cshtml]
+[D:/Sosuckhoe/Partials/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFydGlhbHNcSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Account/ForgotPassword.cshtml]
+[D:/Sosuckhoe/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Account/Login.cshtml]
+[D:/Sosuckhoe/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Account/Register.cshtml]
+[D:/Sosuckhoe/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Chiphi.cshtml]
+[D:/Sosuckhoe/Views/Health/Chiphi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXENoaXBoaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Dangkitiemchung.cshtml]
+[D:/Sosuckhoe/Views/Health/Dangkitiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXERhbmdraXRpZW1jaHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Lichtiemchung.cshtml]
+[D:/Sosuckhoe/Views/Health/Lichtiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXExpY2h0aWVtY2h1bmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Suckhoehangngay.cshtml]
+[D:/Sosuckhoe/Views/Health/Suckhoehangngay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFN1Y2tob2VoYW5nbmdheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Theodoisuckhoe.cshtml]
+[D:/Sosuckhoe/Views/Health/Theodoisuckhoe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRoZW9kb2lzdWNraG9lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Thongtinsaukham.cshtml]
+[D:/Sosuckhoe/Views/Health/Thongtinsaukham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25ndGluc2F1a2hhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Health/Thongtinsuckhoe.cshtml]
+[D:/Sosuckhoe/Views/Health/Thongtinsuckhoe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25ndGluc3Vja2hvZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Home/Index.cshtml]
+[D:/Sosuckhoe/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Home/Privacy.cshtml]
+[D:/Sosuckhoe/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Home/Tiemchung.cshtml]
+[D:/Sosuckhoe/Views/Home/Tiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWVtY2h1bmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Shared/Error.cshtml]
+[D:/Sosuckhoe/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Sosuckhoe/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/_ViewImports.cshtml]
+[D:/Sosuckhoe/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/_ViewStart.cshtml]
+[D:/Sosuckhoe/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Git/Sosuckhoe/Views/Shared/_Layout.cshtml]
+[D:/Sosuckhoe/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k3u2ukwgeb
