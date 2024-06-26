@@ -1,22 +1,16 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SoSucKhoe.Models;
-using SoSucKhoe.Models.Main;
 
 namespace SoSucKhoe.Controllers;
 
 public class HealthController : Controller
 {
-    private readonly SosuckhoeDbContext _sosuckhoeDbContext;
-    private readonly IHttpContextAccessor _httpContext;
-    private readonly IConfiguration _configuration;
+    private readonly ILogger<HealthController> _logger;
 
-    // Constructor
-    public HealthController(SosuckhoeDbContext sosuckhoeDbContext, IHttpContextAccessor httpContextAccessor, IConfiguration configuration)
+    public HealthController(ILogger<HealthController> logger)
     {
-        _sosuckhoeDbContext = sosuckhoeDbContext;
-        _httpContext = httpContextAccessor;
-        _configuration = configuration;
+        _logger = logger;
     }
 
     public IActionResult Thongtinsuckhoe()
@@ -47,16 +41,26 @@ public class HealthController : Controller
     {
         return View();
     }
+    public IActionResult Phieukhamsuckhoe()
+    {
+        return View();
+    }
+    public IActionResult Phieusuckhoedinhki()
+    {
+        return View();
+    }
+    public IActionResult Chitietliyychtiem()
+    {
+        return View();
+    }
     public IActionResult Thongketiemchung()
     {
         return View();
     }
     public IActionResult Thongkephieusuckhoe()
     {
-        var PhieuSucKhoes = _sosuckhoeDbContext.PhieuSucKhoes.ToList();
-        return View(PhieuSucKhoes);
+        return View();
     }
-
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

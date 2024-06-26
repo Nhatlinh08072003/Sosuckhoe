@@ -69,7 +69,6 @@ D:\Sosuckhoe\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Sosuckhoe\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Sosuckhoe\obj\Debug\net8.0\scopedcss\bundle\SoSucKhoe.styles.css
 D:\Sosuckhoe\obj\Debug\net8.0\scopedcss\projectbundle\SoSucKhoe.bundle.scp.css
-D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.csproj.CopyComplete
 D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.dll
 D:\Sosuckhoe\obj\Debug\net8.0\refint\SoSucKhoe.dll
 D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.pdb
@@ -81,3 +80,4 @@ D:\Sosuckhoe\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
 D:\Sosuckhoe\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 D:\Sosuckhoe\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Sosuckhoe\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.csproj.Up2Date
