@@ -41,18 +41,15 @@ public class HealthController : Controller
     {
         return View();
     }
-    public IActionResult Phieukhamsuckhoe()
+    public IActionResult Thongketiemchung()
     {
         return View();
     }
-    public IActionResult Phieusuckhoedinhki()
+    public IActionResult Thongkephieusuckhoe()
     {
         return View();
     }
-    public IActionResult Chitietlichtiem()
-    {
-        return View();
-    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
