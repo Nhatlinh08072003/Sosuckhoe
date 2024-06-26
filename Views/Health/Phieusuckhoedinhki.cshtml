@@ -1,0 +1,58 @@
+@{
+    ViewData["Title"] = "Phiếu sức khỏe định kỳ";
+}
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex items-center justify-center  bg-gray-100">
+        <div class="w-full max-w-4xl p-6 bg-white shadow-lg rounded-lg">
+            <div class="mb-6 text-center">
+                <span class="text-2xl font-bold">Phiếu sức khỏe định kỳ</span>
+            </div>
+            <form action="/submit-infor-health" method="post" class="flex flex-col space-y-4">
+                <div class="form-group">
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
+                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây"
+                        value="Nguyễn Văn A" required class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="ngay" class="block text-left mb-2 font-bold">Ngày</label>
+                    <input type="date" id="ngay" name="Ngày" value="2024-06-26" required
+                        class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="dia-diem" class="block text-left mb-2 font-bold">Địa điểm</label>
+                    <input type="text" id="dia-diem" name="Địa điểm" placeholder="Nhập vào đây" required
+                        value="Hồ Chí Minh" class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="huyet-ap" class="block text-left mb-2 font-bold">Huyết áp</label>
+                    <input type="text" id="huyet-ap" name="Huyết áp" placeholder="Nhập vào đây" required value="120mHg"
+                        class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="nhip-tim" class="block text-left mb-2 font-bold">Nhịp tim</label>
+                    <input type="text" id="nhip-tim" name="Nhịp tim" placeholder="Nhập vào đây" required
+                        value="70 nhịp/tim" class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="chieu-cao" class="block text-left mb-2 font-bold">Chiều cao</label>
+                    <input type="text" id="chieu-cao" name="Chiều cao" placeholder="Nhập vào đây" required value="1m60"
+                        class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="can-nang" class="block text-left mb-2 font-bold">Cân nặng</label>
+                    <input type="text" id="can-nang" name="Cân nặng" placeholder="Nhập vào đây" required value="50kg"
+                        class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="flex justify-center mt-4">
+                    <input type="submit" value="Ghi chú"
+                        class="w-1/2 p-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

@@ -113,5 +113,16 @@ app.MapControllerRoute(
     pattern: "/thongtinsaukham",
     defaults: new { controller = "Health", action = "Thongtinsaukham" }
 );
+app.MapControllerRoute(
+    name: "Thongketiemchung",
+    pattern: "/thongketiemchung",
+    defaults: new { controller = "Health", action = "Thongketiemchung" }
+);
+
+app.MapControllerRoute(
+    name: "Thongkephieusuckhoe",
+    pattern: "/thongkephieusuckhoe",
+    defaults: new { controller = "Health", action = "Thongkephieusuckhoe" }
+);
 
 app.Run();

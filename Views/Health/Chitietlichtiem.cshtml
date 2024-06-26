@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Lịch tiêm chủng";
+}
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="flex h-screen items-center justify-center ">
+        <div class="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
+            <div class="mb-6 text-center">
+                <span class="text-2xl font-bold">Lịch tiêm chủng</span>
+            </div>
+            <form action="/submit-vaccination-schedule" method="post" class="flex flex-col space-y-4">
+                <div class="form-group">
+                    <label for="ten-thanh-vien" class="mb-2 block text-left font-bold">Tên Thành Viên</label>
+                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
+                        value="Lưu Hồng Hữu" class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="ngay-tiem" class="mb-2 block text-left font-bold">Ngày tiêm</label>
+                    <input id="ngay-tiem" name="Ngày tiêm" required value="26/6/2024"
+                        class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="loai-vac-xin" class="mb-2 block text-left font-bold">Loại Vắc-xin</label>
+                    <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required
+                        value="Corona" class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="loai-tiem" class="mb-2 block text-left font-bold">Loại tiêm</label>
+                    <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required value="Virus"
+                        class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="dia-diem-tiem" class="mb-2 block text-left font-bold">Địa điểm tiêm</label>
+                    <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
+                        value="Hồ Chí Minh" class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="chi-phi" class="mb-2 block text-left font-bold">Chi phí</label>
+                    <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" value="500.000 đ" required
+                        class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="mt-4 flex w-full justify-between">
+                    <input type="submit" value="Ghi chú"
+                        class="mr-2 w-1/2 cursor-pointer rounded bg-blue-500 p-2 text-white hover:bg-blue-600" />
+                    <input type="submit" value="Lưu"
+                        class="ml-2 w-1/2 cursor-pointer rounded bg-green-500 p-2 text-white hover:bg-green-600" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
