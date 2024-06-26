@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Git\\Sosuckhoe\\wwwroot\\css\\thongkephieusuckhoe.css",
+      "PackagePath": "staticwebassets\\css\\thongkephieusuckhoe.css"
+    },
+    {
+      "Id": "D:\\Git\\Sosuckhoe\\wwwroot\\css\\thongketiemchung.css",
+      "PackagePath": "staticwebassets\\css\\thongketiemchung.css"
+    },
+    {
       "Id": "D:\\Git\\Sosuckhoe\\wwwroot\\css\\thongtinsaukham.css",
       "PackagePath": "staticwebassets\\css\\thongtinsaukham.css"
     },

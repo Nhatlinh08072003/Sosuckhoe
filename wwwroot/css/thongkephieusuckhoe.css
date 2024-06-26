@@ -1,0 +1,35 @@
+.card-vaccin {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.vaccine-card-vaccin{
+    font-weight: 700;
+    font-size: 23px;
+}
+.title-card-vaccin {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.info-card{
+    font-weight: bold;
+}
+
+.info-card-vaccin{
+    display: flex;
+}
+.button-detail {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.date, .date-user {
+    margin: 0;
+}
+
+.button-detail {
+    margin-left: auto;
+}
