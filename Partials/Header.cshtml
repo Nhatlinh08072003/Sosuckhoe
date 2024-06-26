@@ -48,9 +48,22 @@
             </form>
         </div>
         <div class="Orther" style="">
-            <a href="/login">
-                <div class="Orther-login">Đăng nhập</div>
-            </a>
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                <div>
+                    <span style="color:#000;text-decoration: none;">
+                        Welcome, @User.Identity.Name
+                    </span>
+                </div>
+
+
+            }
+            else
+            {
+                <a href="/login">
+                    <div class="Orther-login">Đăng nhập</div>
+                </a>
+            }
             <a href="/register">
                 <div class="Orther-register">Đăng kí</div>
             </a>

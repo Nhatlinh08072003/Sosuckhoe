@@ -1,6 +1,4 @@
-@{
-    ViewData["Title"] = "Login";
-}
+@model SoSucKhoe.ViewModels.LoginViewModel
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -10,13 +8,24 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2m8NiRX6-wxSoBw_C4cRDKCLFg_wySkYk0ymWLaSAyq3n3Y0o"
             alt="" class="w-24">
     </div>
-    <div class="w-96 p-5 bg-white shadow-lg rounded-lg text-center">
-        <span class="block text-xl font-bold mb-5">ĐĂNG NHẬP</span>
-        <form action="/submit-login" method="post" class="flex flex-col">
-            <input type="text" name="username" placeholder="Username" required
+    <form asp-action="Login" asp-controller="Account" method="post">
+        <div class="w-96 p-5 bg-white shadow-lg rounded-lg text-center">
+            <span class="block text-xl font-bold mb-5">ĐĂNG NHẬP</span>
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                </div>
+            }
+            <input asp-for="Username" type="text" name="username" placeholder="Username" required
                 class="p-2 my-2 border border-black rounded">
-            <input type="password" name="password" placeholder="Password" required
+            <span asp-validation-for="Username" class="text-danger"></span>
+            <input asp-for="Password" type="password" name="password" placeholder="Password" required
                 class="p-2 my-2 border border-black rounded">
+            <span asp-validation-for="Password" class="text-danger"></span>
             <div class="text-right my-2">
                 <a href="/forgot" class="text-blue-500 hover:underline">Quên mật khẩu?</a>
             </div>
@@ -25,6 +34,6 @@
             <div class="mt-4">
                 <span>Bạn chưa có tài khoản <a href="/register" class="text-blue-500 hover:underline">Đăng kí</a></span>
             </div>
-        </form>
-    </div>
+        </div>
+    </form>
 </div>
