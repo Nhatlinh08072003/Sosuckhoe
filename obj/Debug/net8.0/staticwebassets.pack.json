@@ -17,18 +17,6 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\lichtiemchung.css",
-      "PackagePath": "staticwebassets\\css\\lichtiemchung.css"
-    },
-    {
-      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\login.css"
-    },
-    {
-      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\register.css",
-      "PackagePath": "staticwebassets\\css\\register.css"
-    },
-    {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

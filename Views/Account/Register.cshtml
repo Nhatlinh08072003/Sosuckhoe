@@ -3,26 +3,43 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/Css/register.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<div class="Register">
-    <div class="logo-Register">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2m8NiRX6-wxSoBw_C4cRDKCLFg_wySkYk0ymWLaSAyq3n3Y0o"
-            alt="">
-    </div>
-    <div class="Register-container">
-        <span>ĐĂNG KÍ</span>
-        <form action="/submit-register" method="post">
-            <input type="text" name="phonenumber" placeholder="Số điện thoại" required>
-            <input type="text" name="fullname" placeholder="Tên người dùng" required>
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="text" name="address" placeholder="Địa chỉ" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="password" name="retypepassword" placeholder="Nhập lại Password" required>
-
-            <input type="submit" value="Register">
-            <div class="create-account">
-                <span>Bạn đã có tài khoản <a href="/login">Đăng nhập</a></span>
+<div class="flex flex-col items-center  ">
+    <div class="w-96 p-5 bg-white shadow-lg rounded-lg text-center max-w-[600px] ">
+        <span class="block text-xl font-bold mb-5">ĐĂNG KÍ</span>
+        <form action="/submit-register" method="post" class="flex flex-col ">
+            <input type="text" name="phonenumber" placeholder="Số điện thoại" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="text" name="fullname" placeholder="Tên người dùng" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="text" name="username" placeholder="Username" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="text" name="address" placeholder="Địa chỉ" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="number" name="age" placeholder="Tuổi" required class="p-2 my-2 border border-black rounded">
+            <div class="my-2">
+                <label class="block text-left mb-1">Giới tính:</label>
+                <div class="flex justify-around">
+                    <label class="flex items-center">
+                        <input type="radio" name="gender" value="male" class="mr-2">Nam
+                    </label>
+                    <label class="flex items-center">
+                        <input type="radio" name="gender" value="female" class="mr-2">Nữ
+                    </label>
+                    <label class="flex items-center">
+                        <input type="radio" name="gender" value="other" class="mr-2">Khác
+                    </label>
+                </div>
+            </div>
+            <input type="password" name="password" placeholder="Password" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="password" name="retypepassword" placeholder="Nhập lại Password" required
+                class="p-2 my-2 border border-black rounded">
+            <input type="submit" value="Register"
+                class="p-2 my-2 border-none rounded bg-green-500 text-white cursor-pointer hover:bg-green-600">
+            <div class="mt-4">
+                <span>Bạn đã có tài khoản <a href="/login" class="text-blue-500 hover:underline">Đăng nhập</a></span>
             </div>
         </form>
     </div>
