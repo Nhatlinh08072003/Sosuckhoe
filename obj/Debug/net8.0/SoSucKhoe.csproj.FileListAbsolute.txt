@@ -1,10 +1,10 @@
+D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.exe
+D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.dll
 D:\SoSucKhoe\bin\Debug\net8.0\appsettings.Development.json
 D:\SoSucKhoe\bin\Debug\net8.0\appsettings.json
 D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.staticwebassets.runtime.json
-D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.exe
 D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.deps.json
 D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.runtimeconfig.json
-D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.dll
 D:\SoSucKhoe\bin\Debug\net8.0\SoSucKhoe.pdb
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.GeneratedMSBuildEditorConfig.editorconfig
 D:\SoSucKhoe\obj\Debug\net8.0\SoSucKhoe.AssemblyInfoInputs.cache

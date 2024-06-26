@@ -38,12 +38,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SoSucKhoe/Views/Account/Thongbao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUaG9uZ2Jhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SoSucKhoe/Views/Health/Chitietlichtiem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXENoaXRpZXRsaWNodGllbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SoSucKhoe/Views/Health/Dangkitiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXERhbmdraXRpZW1jaHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SoSucKhoe/Views/Health/Lichtiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXExpY2h0aWVtY2h1bmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SoSucKhoe/Views/Health/phieukhamsuckhoe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXHBoaWV1a2hhbXN1Y2tob2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SoSucKhoe/Views/Health/Phieusuckhoedinhki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFBoaWV1c3Vja2hvZWRpbmhraS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SoSucKhoe/Views/Health/Thongtinsaukham.cshtml]

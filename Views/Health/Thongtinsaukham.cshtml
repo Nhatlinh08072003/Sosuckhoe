@@ -3,47 +3,54 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/thongtinsaukham.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="history-vacxin">
-        <div class="history-vacxin-title">
-            <span class="title-history-vacxin">Thông tin sau khám</span>
-        </div>
-        <div class="history-vacxin-form">
-            <form action="/submit-history-vacxin" method="post-form">
+    <div class="flex items-center justify-center h-screen ">
+        <div class="w-full max-w-4xl p-6 bg-white shadow-lg rounded-lg">
+            <div class="mb-6 text-center">
+                <span class="text-2xl font-bold">Thông tin sau khi khám</span>
+            </div>
+            <form action="/submit-history-vacxin" method="post" class="flex flex-col ">
                 <div class="form-group">
-                    <label for="ten-thanh-vien">Tên thành viên</label>
-                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="ngay-tiem">Ngày khám bệnh </label>
-                    <input type="date" id="ngay-tiem" name="Ngày tiêm" required>
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên thành viên</label>
+                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="loai-vac-xin">Bác sĩ</label>
-                    <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required>
+                    <label for="ngay-tiem" class="block text-left mb-2 font-bold">Ngày khám bệnh</label>
+                    <input type="date" id="ngay-tiem" name="Ngày tiêm" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="loai-tiem">Loại bệnh</label>
-                    <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required>
+                    <label for="loai-vac-xin" class="block text-left mb-2 font-bold">Bác sĩ</label>
+                    <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="dia-diem-tiem">Kết quả</label>
-                    <input type="date" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required>
+                    <label for="loai-tiem" class="block text-left mb-2 font-bold">Loại bệnh</label>
+                    <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="chi-phi">Kê thuốc</label>
-                    <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" required>
+                    <label for="dia-diem-tiem" class="block text-left mb-2 font-bold">Kết quả</label>
+                    <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="chi-phi">Tổng chi phí</label>
-                    <input type="text" id="dia-chi-tiem" name="Địa chỉ tiêm" placeholder="Nhập vào đây" required>
+                    <label for="chi-phi" class="block text-left mb-2 font-bold">Kê thuốc</label>
+                    <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
-                <div class="history-vacxin-button">
-                    <input type="submit" value="Lưu" style="background: #107CFA;">
+                <div class="form-group">
+                    <label for="tong-chi-phi" class="block text-left mb-2 font-bold">Tổng chi phí</label>
+                    <input type="text" id="tong-chi-phi" name="Tổng chi phí" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="flex justify-center mt-4">
+                    <input type="submit" value="Lưu"
+                        class="w-1/2 p-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600">
                 </div>
             </form>
         </div>
