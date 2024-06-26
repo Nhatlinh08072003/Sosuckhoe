@@ -1,0 +1,79 @@
+
+
+.register-vaccination {
+    width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.register-vaccination-title {
+    margin-bottom: 20px;
+}
+.title-register-vacciantion{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.register-vaccination-title span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.register-vaccination-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-vaccination-button {
+  width: 20%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.register-vaccination-button input[type="submit"] {
+    padding: 10px;
+    width: 20%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF
+}
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; 
+    margin: auto;
+}
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+}
+.checkbox-group input[type="radio"] {
+    margin-right: 5px;
+}

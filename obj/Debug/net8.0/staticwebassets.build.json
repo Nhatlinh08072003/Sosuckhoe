@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "001sh/qCqBtgnmvccx5dpwbUq0DOGYsInsFwr92n2h4=",
+  "Hash": "9TWoRPpm+xNNiV9XVH4+CUMSabWNtKiPWFUgrfGhMkE=",
   "Source": "SoSucKhoe",
   "BasePath": "_content/SoSucKhoe",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SoSucKhoe.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\dangkitiemchung.css",
+      "SourceId": "SoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/SoSucKhoe",
+      "RelativePath": "css/dangkitiemchung.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\dangkitiemchung.css"
     },
     {
       "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\forgotpassword.css",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsaukham.css",
+      "SourceId": "SoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
+      "BasePath": "_content/SoSucKhoe",
+      "RelativePath": "css/thongtinsaukham.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\thongtinsaukham.css"
     },
     {
       "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsuckhoe.css",

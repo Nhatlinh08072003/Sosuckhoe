@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SoSucKhoe.bundle.scp.css"
     },
     {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\dangkitiemchung.css",
+      "PackagePath": "staticwebassets\\css\\dangkitiemchung.css"
+    },
+    {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\forgotpassword.css",
       "PackagePath": "staticwebassets\\css\\forgotpassword.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsaukham.css",
+      "PackagePath": "staticwebassets\\css\\thongtinsaukham.css"
     },
     {
       "Id": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsuckhoe.css",
