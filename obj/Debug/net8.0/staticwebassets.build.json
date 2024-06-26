@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "I+d4Xlq7Fl/w/n3bGqou73GBmQYwZx9W4pwBBTDf0fQ=",
-=======
-  "Hash": "9TWoRPpm+xNNiV9XVH4+CUMSabWNtKiPWFUgrfGhMkE=",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
+  "Hash": "pCBN7jBushIrH9KUFIL3RfJEEV/9ZvWvBhSxnW/Ho3E=",
   "Source": "SoSucKhoe",
   "BasePath": "_content/SoSucKhoe",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "SoSucKhoe\\wwwroot",
       "Source": "SoSucKhoe",
-<<<<<<< HEAD
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SoSucKhoe.styles.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Sosuckhoe\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SoSucKhoe.styles.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "SoSucKhoe.styles.css",
       "AssetKind": "All",
@@ -48,7 +33,6 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "D:\\Sosuckhoe\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SoSucKhoe.styles.css"
     },
     {
@@ -56,15 +40,6 @@
       "SourceId": "SoSucKhoe",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Sosuckhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SoSucKhoe.styles.css"
-    },
-    {
-      "Identity": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SoSucKhoe.bundle.scp.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "SoSucKhoe.bundle.scp.css",
       "AssetKind": "All",
@@ -77,7 +52,6 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "D:\\Sosuckhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SoSucKhoe.bundle.scp.css"
     },
     {
@@ -85,15 +59,6 @@
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "OriginalItemSpec": "D:\\SoSucKhoe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SoSucKhoe.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\dangkitiemchung.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/dangkitiemchung.css",
       "AssetKind": "All",
@@ -109,17 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\dangkitiemchung.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\forgotpassword.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\forgotpassword.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/forgotpassword.css",
       "AssetKind": "All",
@@ -135,17 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\forgotpassword.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\header.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\header.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/header.css",
       "AssetKind": "All",
@@ -161,17 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\header.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\index.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\index.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -187,74 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\lichtiemchung.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-      "BasePath": "_content/SoSucKhoe",
-      "RelativePath": "css/lichtiemchung.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\lichtiemchung.css"
-    },
-    {
-      "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\login.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-      "BasePath": "_content/SoSucKhoe",
-      "RelativePath": "css/login.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\login.css"
-    },
-    {
-      "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\register.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-      "BasePath": "_content/SoSucKhoe",
-      "RelativePath": "css/register.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\register.css"
-    },
-    {
       "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\site.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\site.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -270,17 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\thongtinsaukham.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsaukham.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/thongtinsaukham.css",
       "AssetKind": "All",
@@ -296,17 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\thongtinsaukham.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\css\\thongtinsuckhoe.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\css\\thongtinsuckhoe.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "css/thongtinsuckhoe.css",
       "AssetKind": "All",
@@ -322,17 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\thongtinsuckhoe.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\favicon.ico",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\favicon.ico",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -348,17 +207,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\js\\site.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\js\\site.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -374,17 +226,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -400,17 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -426,17 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -452,17 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -478,17 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -504,17 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -530,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -556,17 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -582,17 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -608,17 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -634,17 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -660,17 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -686,17 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -712,17 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -738,17 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -764,17 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -790,17 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -816,17 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -842,17 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -868,17 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -894,17 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -920,17 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -946,17 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -972,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -998,17 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1024,17 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1050,17 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1076,17 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1102,17 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1128,17 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1154,17 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1180,17 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1206,17 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1232,17 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1258,17 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1284,17 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1310,17 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1336,17 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1362,17 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1388,17 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1414,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1440,17 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1466,17 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1492,17 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1518,17 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1544,17 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1570,17 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1596,17 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1622,17 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1648,17 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1674,17 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1700,17 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1726,17 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1752,17 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1778,17 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1804,17 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1830,17 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "D:\\Sosuckhoe\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SoSucKhoe",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
-=======
-      "Identity": "D:\\SoSucKhoe\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "SoSucKhoe",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SoSucKhoe\\wwwroot\\",
->>>>>>> cfa2aa578545b96dddf6a19801bc43d46e0fc9fc
       "BasePath": "_content/SoSucKhoe",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
