@@ -13,50 +13,48 @@
                 <span class="text-2xl font-bold">Lịch tiêm chủng</span>
             </div>
             <div>
-                <form action="/submit-History-vaccination" method="post" class="flex flex-col space-y-4">
+                <form id="addLichTiemForm" method="post" enctype="multipart/form-data" action="/health/addlichtiem">
                     <div class="form-group">
                         <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
-                        <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
+                        <input type="text" id="ten-thanh-vien" name="fullname" placeholder="Nhập vào đây" required
                             class="w-full p-2 border border-gray-300 rounded">
                     </div>
                     <div class="form-group">
                         <label for="ngay-tiem" class="block text-left mb-2 font-bold">Ngày tiêm</label>
-                        <input type="date" id="ngay-tiem" name="Ngày tiêm" required
+                        <input type="date" id="ngay-tiem" name="ngay_tiem" required
                             class="w-full p-2 border border-gray-300 rounded">
                     </div>
                     <div class="form-group">
                         <label for="loai-vac-xin" class="block text-left mb-2 font-bold">Loại Vắc-xin</label>
-                        <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required
-                            class="w-full p-2 border border-gray-300 rounded">
-                    </div>
-                    <div class="form-group">
-                        <label for="loai-tiem" class="block text-left mb-2 font-bold">Loại tiêm</label>
-                        <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required
+                        <input type="text" id="loai-vac-xin" name="loai_vac_xin" placeholder="Nhập vào đây" required
                             class="w-full p-2 border border-gray-300 rounded">
                     </div>
                     <div class="form-group">
                         <label for="dia-diem-tiem" class="block text-left mb-2 font-bold">Địa điểm tiêm</label>
-                        <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
+                        <input type="text" id="dia-diem-tiem" name="dia_diem" placeholder="Nhập vào đây" required
                             class="w-full p-2 border border-gray-300 rounded">
                     </div>
                     <div class="form-group">
                         <label for="chi-phi" class="block text-left mb-2 font-bold">Chi phí</label>
-                        <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" required
+                        <input type="text" id="chi-phi" name="chi_phi" placeholder="Nhập vào đây" required
                             class="w-full p-2 border border-gray-300 rounded">
                     </div>
                     <div class="form-group">
                         <label for="ghi-chu" class="block text-left mb-2 font-bold">Ghi chú</label>
-                        <textarea id="ghi-chu" name="Ghi chú" placeholder="Nhập vào đây"
-                            class="w-full p-2 border border-gray-300 rounded"></textarea>
+                        <input id="ghi-chu" name="ghi_chu" placeholder="Nhập vào đây"
+                            class="w-full p-2 border border-gray-300 rounded"></input>
                     </div>
                     <div class="form-group">
                         <label for="mo-ta" class="block text-left mb-2 font-bold">Mô tả</label>
-                        <textarea id="mo-ta" name="Mô tả" placeholder="Nhập vào đây"
-                            class="w-full p-2 border border-gray-300 rounded"></textarea>
+                        <input id="mo-ta" name="mo_ta" placeholder="Nhập vào đây"
+                            class="w-full p-2 border border-gray-300 rounded"></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="tinh_trang" class="block text-left mb-2 font-bold">Tình Trạng</label>
+                        <input id="tinh_trang" name="tinh_trang" placeholder="Nhập vào đây"
+                            class="w-full p-2 border border-gray-300 rounded"></input>
                     </div>
                     <div class="flex justify-between w-full mt-4">
-                        <input type="submit" value="Ghi chú"
-                            class="w-1/2 p-2 mr-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600">
                         <input type="submit" value="Lưu"
                             class="w-1/2 p-2 ml-2 bg-green-500 text-white rounded cursor-pointer hover:bg-green-600">
                     </div>
@@ -65,3 +63,36 @@
         </div>
     </div>
 </body>
+<script>
+    document.getElementById('addLichTiemForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var formData = new FormData();
+        formData.append('fullname', document.querySelector('input[name="fullname"]').value);
+        formData.append('ngay_tiem', document.querySelector('input[name="ngay_tiem"]').value);
+        formData.append('loai_vac_xin', document.querySelector('input[name="loai_vac_xin"]').value);
+        formData.append('dia_diem', document.querySelector('input[name="dia_diem"]').value);
+        formData.append('chi_phi', document.querySelector('input[name="chi_phi"]').value);
+        formData.append('ghi_chu', document.querySelector('input[name="ghi_chu"]').value);
+        formData.append('mo_ta', document.querySelector('input[name="mo_ta"]').value);
+        formData.append('tinh_trang', document.querySelector('input[name="tinh_trang"]').value);
+
+        fetch('/health/addlichtiem', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    location.reload();
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi gửi yêu cầu:', error);
+                alert('Lỗi khi gửi yêu cầu.');
+            });
+    });
+</script>

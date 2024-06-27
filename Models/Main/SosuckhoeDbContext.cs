@@ -24,8 +24,8 @@ public partial class SosuckhoeDbContext : DbContext
     public virtual DbSet<PhieuSucKhoe> PhieuSucKhoes { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=NHATLINH;Database=SOSUCKHOE;MultipleActiveResultSets=true;User ID=admin;Password=asdasd;Trusted_Connection=True;TrustServerCertificate=Yes");
+        // #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=UINLAN\\SQLEXPRESS;Database=SOSUCKHOE;MultipleActiveResultSets=true;User ID=admin;Password=asdasd;Trusted_Connection=True;TrustServerCertificate=Yes");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -39,7 +39,7 @@ public partial class SosuckhoeDbContext : DbContext
             entity.Property(e => e.GhiChu).HasMaxLength(255);
             entity.Property(e => e.LoaiVacxin).HasMaxLength(255);
             entity.Property(e => e.Mota).HasMaxLength(255);
-            entity.Property(e => e.NgayTiem).HasColumnType("date");
+            entity.Property(e => e.NgayTiem).HasMaxLength(30);
             entity.Property(e => e.TinhTrang).HasMaxLength(255);
 
             entity.HasOne(d => d.Person).WithMany(p => p.Lichtiems)
@@ -69,7 +69,7 @@ public partial class SosuckhoeDbContext : DbContext
             entity.ToTable("PhieuDinhKy");
 
             entity.Property(e => e.NgayKham)
-                .HasColumnType("date");
+                .HasMaxLength(30);
 
             entity.HasOne(d => d.Person).WithMany(p => p.PhieuDinhKies)
                 .HasForeignKey(d => d.PersonId)
@@ -89,7 +89,7 @@ public partial class SosuckhoeDbContext : DbContext
             entity.Property(e => e.LoaiBenh).HasMaxLength(255);
             entity.Property(e => e.LuuY).HasMaxLength(255);
             entity.Property(e => e.MoTaToaThuoc).HasMaxLength(255);
-            entity.Property(e => e.NgayKham).HasColumnType("date");
+            entity.Property(e => e.NgayKham).HasMaxLength(30);
             entity.Property(e => e.TenBenh).HasMaxLength(255);
             entity.Property(e => e.TrieuChung).HasMaxLength(255);
 

@@ -153,17 +153,17 @@ app.MapControllerRoute(
 );
 app.MapControllerRoute(
     name: "Chitietphieusuckhoe",
-    pattern: "/chitietphieusuckhoe",
+    pattern: "/chitietphieusuckhoe/{id}",
     defaults: new { controller = "Health", action = "Chitietphieusuckhoe" }
 );
 app.MapControllerRoute(
     name: "Chitietlichtiem",
-    pattern: "/chitietlichtiem",
+    pattern: "/chitietlichtiem/{id}",
     defaults: new { controller = "Health", action = "Chitietlichtiem" }
 );
 app.MapControllerRoute(
     name: "Chitietphieusuckhoedinhki",
-    pattern: "/chitietphieusuckhoedinhki",
+    pattern: "/chitietphieusuckhoedinhki/{id}",
     defaults: new { controller = "Health", action = "Chitietphieusuckhoedinhki" }
 );
 app.Run();

@@ -1,3 +1,4 @@
+@model SoSucKhoe.Models.Main.PhieuDinhKy
 @{
     ViewData["Title"] = "Chi tiết phiếu sức khỏe định kì";
 }
@@ -12,52 +13,43 @@
             <div class="mb-6 text-center">
                 <span class="text-2xl font-bold">Chi tiết phiếu sức khỏe định kì</span>
             </div>
-            <form action="/submit-vaccination-schedule" method="post" class="flex flex-col space-y-4">
-                <div class="form-group">
-                    <label for="ten-thanh-vien" class="mb-2 block text-left font-bold">Tên Thành Viên</label>
-                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
-                        value="Lưu Hồng Hữu" class="w-full rounded border border-gray-300 p-2" />
+            <form id="editDinhKiForm" method="post" enctype="multipart/form-data" action="/health/editdinhki">
+                <div class="form-group" style="display: none;">
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Mã định kì</label>
+                    <input type="text" id="ten-thanh-vien" name="iddinhki" placeholder="Nhập vào đây"  value="@Model.Id" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="ngay-tiem" class="mb-2 block text-left font-bold">Ngày tiêm</label>
-                    <input id="ngay-tiem" name="Ngày tiêm" required value="26/6/2024"
-                        class="w-full rounded border border-gray-300 p-2" />
-                </div>
-
-
-                <div class="form-group">
-                    <label for="dia-diem-tiem" class="mb-2 block text-left font-bold">Địa điểm tiêm</label>
-                    <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
-                        value="Hồ Chí Minh" class="w-full rounded border border-gray-300 p-2" />
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
+                    <input type="text" id="ten-thanh-vien" name="fullname" placeholder="Nhập vào đây"    value="@Model.Hoten" required
+                     class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="dia-diem-tiem" class="mb-2 block text-left font-bold">Địa điểm tiêm</label>
-                    <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
-                        value="Hồ Chí Minh" class="w-full rounded border border-gray-300 p-2" />
+                    <label for="ngay" class="block text-left mb-2 font-bold">Ngày Khám</label>
+                    <input type="date" id="ngay" name="ngay_kham" value="@Model.NgayKham" required 
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="Huyet-ap" class="mb-2 block text-left font-bold">Huyết áp</label>
-                    <input type="text" id="huyet-ap" name="huyết áp" placeholder="Nhập vào đây" value="130 mhg" required
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="huyet-ap" class="block text-left mb-2 font-bold">Huyết áp (mHg)</label>
+                    <input type="text" id="huyet-ap" name="huyet_ap" placeholder="Nhập vào đây" required value="@Model.HuyetAp"
+                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="nhip-tim" class="mb-2 block text-left font-bold">Nhịp tim</label>
-                    <input type="text" id="nhip-tim" name="nhịp tim" placeholder="Nhập vào đây" value="90 nhịp/tim"
-                        required class="w-full rounded border border-gray-300 p-2" />
+                    <label for="nhip-tim" class="block text-left mb-2 font-bold">Nhịp tim (Nhịp/phút)</label>
+                    <input type="text" id="nhip-tim" name="nhip_tim" placeholder="Nhập Nhip vào đây" required  value="@Model.NhipTim" 
+                       class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="chieu-cao" class="mb-2 block text-left font-bold">Chiều cao</label>
-                    <input type="text" id="chieu-cao" name="chiều cao" placeholder="Nhập vào đây" value="1m60" required
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="chieu-cao" class="block text-left mb-2 font-bold">Chiều cao (m)</label>
+                    <input type="text" id="chieu-cao" name="chieu_cao" placeholder="Nhập vào đây" required value="@Model.ChieuCao"
+                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="can-nang" class="mb-2 block text-left font-bold">Cân nặng</label>
-                    <input type="text" id="can-nang" name="cân nặng" placeholder="Nhập vào đây" value="50kg" required
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="can-nang" class="block text-left mb-2 font-bold">Cân nặng (kg)</label>
+                    <input type="text" id="can-nang" name="can_nang" placeholder="Nhập vào đây" required  value="@Model.CanNang"
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="mt-4 flex w-full justify-between">
-                    <input type="submit" value="Ghi chú"
-                        class="mr-2 w-1/2 cursor-pointer rounded bg-blue-500 p-2 text-white hover:bg-blue-600" />
                     <input type="submit" value="Sửa"
                         class="ml-2 w-1/2 cursor-pointer rounded bg-green-500 p-2 text-white hover:bg-green-600" />
                 </div>
@@ -65,3 +57,34 @@
         </div>
     </div>
 </body>
+<script>
+    document.getElementById('editDinhKiForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var formData = new FormData();
+        formData.append('iddinhki', document.querySelector('input[name="iddinhki"]').value);
+        formData.append('fullname', document.querySelector('input[name="fullname"]').value);
+        formData.append('ngay_kham', document.querySelector('input[name="ngay_kham"]').value);
+        formData.append('huyet_ap', document.querySelector('input[name="huyet_ap"]').value);
+        formData.append('nhip_tim', document.querySelector('input[name="nhip_tim"]').value);
+        formData.append('chieu_cao', document.querySelector('input[name="chieu_cao"]').value);
+        formData.append('can_nang', document.querySelector('input[name="can_nang"]').value);
+        fetch('/health/editdinhki', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    location.reload();
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi gửi yêu cầu:', error);
+                alert('Lỗi khi gửi yêu cầu.');
+            });
+    });
+</script>

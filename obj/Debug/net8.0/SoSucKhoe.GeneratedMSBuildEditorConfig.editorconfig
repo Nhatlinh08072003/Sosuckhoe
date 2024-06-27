@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Sosuckhoe/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Sosuckhoe/Views/Account/Thongbao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxUaG9uZ2Jhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Sosuckhoe/Views/Health/chitietphieusuckhoedinhki.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXGNoaXRpZXRwaGlldXN1Y2tob2VkaW5oa2kuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Sosuckhoe/Views/Health/Dangkitiemchung.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXERhbmdraXRpZW1jaHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Sosuckhoe/Views/Health/Lichtiemchung.cshtml]
@@ -80,14 +80,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Sosuckhoe/Views/Health/Thongketiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25na2V0aWVtY2h1bmcuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Sosuckhoe/Views/Health/Thongtinsaukham.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25ndGluc2F1a2hhbS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Sosuckhoe/Views/Health/Thongtinsuckhoe.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXFRob25ndGluc3Vja2hvZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Sosuckhoe/Views/Home/Index.cshtml]

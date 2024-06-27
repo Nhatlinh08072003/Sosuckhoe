@@ -1,3 +1,4 @@
+@model SoSucKhoe.Models.Main.PhieuSucKhoe
 @{
     ViewData["Title"] = " Chi tiết phiếu khám sức khỏe";
 }
@@ -12,68 +13,76 @@
             <div class="mb-6 text-center">
                 <span class="text-2xl font-bold">Chi tiết phiếu khám sức khỏe</span>
             </div>
-            <form action="/submit-medical-exam" method="post" enctype="multipart/form-data"
-                class="flex flex-col space-y-4">
+            <form id="editSucKhoeForm" method="post" enctype="multipart/form-data" action="/health/editsuckhoe">
+                <input type="hidden" name="toathuoc_image_url" value="">
+                <div class="form-group">
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Mã sức khỏe</label>
+                    <input type="text" id="ten-thanh-vien" name="idsuckhoe" value="@Model.Id" placeholder="Nhập vào đây"
+                        required class="w-full p-2 border border-gray-300 rounded">
+                </div>
                 <div class="form-group">
                     <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
-                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" value="Lê Tiên Nhất Linh"
+                    <input type="text" id="ten-thanh-vien" name="fullname" value="@Model.Hoten"
                         placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="ngay-kham" class="block text-left mb-2 font-bold">Ngày khám bệnh</label>
-                    <input value="27/06/2024" id="ngay-kham" name="Ngày khám bệnh" required
+                    <input value="@Model.NgayKham" id="ngay-kham" name="ngay_kham" required
                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="ten-benh" class="block text-left mb-2 font-bold">Tên bệnh</label>
-                    <input type="text" id="ten-benh" value="Cảm cúm" name="Tên bệnh" placeholder="Nhập vào đây" required
-                        class="w-full p-2 border border-gray-300 rounded">
+                    <input type="text" id="ten-benh" value="@Model.TenBenh" name="ten_benh" placeholder="Nhập vào đây"
+                        required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="loai-benh" class="block text-left mb-2 font-bold">Loại bệnh</label>
-                    <input type="text" id="loai-benh" value="Cảm" name="Loại bệnh" placeholder="Nhập vào đây" required
-                        class="w-full p-2 border border-gray-300 rounded">
+                    <input type="text" id="loai-benh" value="@Model.LoaiBenh" name="loai_benh"
+                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="trieu-chung" class="block text-left mb-2 font-bold">Triệu chứng</label>
-                    <input type="text" id="trieu-chung " value=" Ho,hắt xì" name="triệu chứng "
+                    <input type="text" id="trieu-chung " value="@Model.TrieuChung" name="trieu_chung"
                         placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
 
                 <div class="form-group">
                     <label for="dia-diem-kham" class="block text-left mb-2 font-bold">Địa điểm khám bệnh</label>
-                    <input type="text" id="dia-diem-kham" value="Hồ Chí Minh" name="Địa điểm khám bệnh"
+                    <input type="text" id="dia-diem-kham" value="@Model.Diadiem" name="dia_diem"
                         placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="Tình trạng bệnh" class="block text-left mb-2 font-bold">Tình trạng bệnh </label>
-                    <input type="text" id="tình trạng bệnh " value="Nhẹ" name="Tình trạng bệnh"
-                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
+                    <label for="dinh-benh" class="block text-left mb-2 font-bold">Định bệnh</label>
+                    <input id="dinh-benh" name="dinh_benh" placeholder="Nhập vào đây" value="@Model.DinhBenh"
+                        class="w-full p-2 border border-gray-300 rounded"></input>
                 </div>
                 <div class="form-group">
                     <label for="mo-ta-toa-thuoc" class="block text-left mb-2 font-bold">Mô tả toa thuốc</label>
-                    <input type="text" id="mo-ta-toa-thuoc" value="Thường thì là 1-2 thìa cà phê (5-10 ml) mỗi 4-6 giờ.
-Trẻ em: Liều lượng cho trẻ em thường ít hơn người lớn và phụ thuộc vào tuổi và cân nặng của trẻ."
-                        name="Tình trạng bệnh" placeholder="Nhập vào đây" required
+                    <input type="text" id="mo-ta-toa-thuoc" value="@Model.MoTaToaThuoc" name="mo_ta_toa_thuoc"
+                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="form-group">
+                    <label for="ten-bac-si" class="block text-left mb-2 font-bold">Chi Phí</label>
+                    <input type="text" name="chi_phi" placeholder="Nhập chi phí vào đây" value="@Model.ChiPhi" required
                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="ten-bac-si" class="block text-left mb-2 font-bold">Tên Bác sĩ</label>
-                    <input type="text" id="ten-bac-si" value="Nguyễn Văn A" name="Tên Bác sĩ" placeholder="Nhập vào đây"
+                    <label for="ten-bac-si" class="block text-left mb-2 font-bold">Thông tin khám bệnh</label>
+                    <input type="text" id="ten-bac-si" value="@Model.Kham" name="kham" placeholder="Nhập vào đây"
                         required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="hinh-anh" class="block text-left mb-2 font-bold">Hình ảnh</label>
-                    <input type="file" id="hinh-anh" name="Hình ảnh" accept="image/*"
-                        class="border border-gray-300 rounded">
-                    <img id="preview-image" src="duong-dan-toi-hinh-anh-mac-dinh.jpg" alt="Preview Image"
-                        class="mt-2" />
+                    <label for="ghi-chu" class="block text-left mb-2 font-bold">Lưu ý</label>
+                    <input type="text" id="ghi-chu" name="luu_y" placeholder="Nhập vào đây" value="@Model.LuuY" required
+                        class="w-full rounded border border-gray-300 p-2" />
                 </div>
-
-
+                <label for="hinh-anh" class="block text-left mb-2 font-bold">Hình toa thuốc</label>
+                <div class="form-group">
+                    <input type="file" id="uploadImageInput" name="toathuoc_image" style="display: none;">
+                    <img src="@Model.HinhToaThuoc" loading="lazy" alt="Add" title="Add" width="200" height="200"
+                        id="addImageIcon">
+                </div>
                 <div class="flex justify-between w-full mt-4">
-                    <input type="submit" value="Ghi chú"
-                        class="w-1/2 p-2 mr-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600">
                     <input type="submit" value="Sửa"
                         class="w-1/2 p-2 ml-2 bg-green-500 text-white rounded cursor-pointer hover:bg-green-600">
                 </div>
@@ -82,15 +91,78 @@ Trẻ em: Liều lượng cho trẻ em thường ít hơn người lớn và ph�
     </div>
 </body>
 <script>
-    document.getElementById('hinh-anh').addEventListener('change', function (event) {
-        const file = event.target.files[0];
+    document.getElementById('addImageIcon').addEventListener('click', function () {
+        document.getElementById('uploadImageInput').click();
+    });
+    // Xử lý sự kiện khi người dùng chọn hình ảnh từ máy tính
+    document.getElementById('uploadImageInput').addEventListener('change', function (event) {
+        var file = event.target.files[0]; // Lấy file hình ảnh từ sự kiện
+
         if (file) {
-            const reader = new FileReader();
+            var reader = new FileReader(); // Tạo đối tượng FileReader để đọc file
+
             reader.onload = function (e) {
-                const previewImage = document.getElementById('preview-image');
-                previewImage.src = e.target.result;
+                // Khi file đã được đọc thành công
+                var imageSrc = e.target.result; // Lấy đường dẫn base64 của hình ảnh
+
+                // Hiển thị hình ảnh đã chọn lên biểu tượng "Add image"
+                var addImageIcon = document.getElementById('addImageIcon');
+                addImageIcon.src = imageSrc; // Thay đổi thuộc tính src của thẻ img để hiển thị hình ảnh mới
+                addImageIcon.width = 100; // Thay đổi chiều rộng của ảnh
+                addImageIcon.height = 100; // Thay đổi chiều cao của ảnh
             };
-            reader.readAsDataURL(file);
+
+            reader.readAsDataURL(file); // Đọc file dưới dạng data URL (base64)
         }
+    });
+    document.getElementById('editSucKhoeForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var formData = new FormData();
+        formData.append('idsuckhoe', document.querySelector('input[name="idsuckhoe"]').value);
+        formData.append('fullname', document.querySelector('input[name="fullname"]').value);
+        formData.append('ngay_kham', document.querySelector('input[name="ngay_kham"]').value);
+        formData.append('ten_benh', document.querySelector('input[name="ten_benh"]').value);
+        formData.append('loai_benh', document.querySelector('input[name="loai_benh"]').value);
+        formData.append('trieu_chung', document.querySelector('input[name="trieu_chung"]').value);
+        formData.append('dia_diem', document.querySelector('input[name="dia_diem"]').value);
+        formData.append('dinh_benh', document.querySelector('input[name="dinh_benh"]').value);
+        formData.append('mo_ta_toa_thuoc', document.querySelector('input[name="mo_ta_toa_thuoc"]').value);
+        formData.append('kham', document.querySelector('input[name="kham"]').value);
+        formData.append('luu_y', document.querySelector('input[name="luu_y"]').value);
+        formData.append('chi_phi', document.querySelector('input[name="chi_phi"]').value);
+
+
+        // Lấy URL ảnh hiện tại từ thẻ img
+        var currentImageUrl = document.getElementById('addImageIcon').getAttribute('src');
+        formData.append('toathuoc_image', currentImageUrl);
+
+        // Lấy file ảnh từ input nếu có
+        var fileInput = document.getElementById('uploadImageInput');
+        if (fileInput.files.length > 0) {
+            formData.append('toathuoc_image_url', fileInput.files[0]);
+        } else {
+            // Thêm giá trị rỗng để tránh lỗi yêu cầu trường
+            formData.append('toathuoc_image_url', new Blob());
+        }
+
+
+        fetch('/health/editsuckhoe', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    location.reload();
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi gửi yêu cầu:', error);
+                alert('Lỗi khi gửi yêu cầu.');
+            });
     });
 </script>

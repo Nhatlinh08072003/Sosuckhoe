@@ -1,3 +1,4 @@
+@model SoSucKhoe.Models.Main.Lichtiem
 @{
     ViewData["Title"] = "Lịch tiêm chủng";
 }
@@ -12,44 +13,91 @@
             <div class="mb-6 text-center">
                 <span class="text-2xl font-bold">Lịch tiêm chủng</span>
             </div>
-            <form action="/submit-vaccination-schedule" method="post" class="flex flex-col space-y-4">
-                <div class="form-group">
-                    <label for="ten-thanh-vien" class="mb-2 block text-left font-bold">Tên Thành Viên</label>
-                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
-                        value="Lưu Hồng Hữu" class="w-full rounded border border-gray-300 p-2" />
+            <form id="editLichTiemForm" method="post" enctype="multipart/form-data" action="/health/editlichtiem">
+             <div class="form-group" style="display: none;">
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Mã lịch tiêm</label>
+                    <input type="text" id="ten-thanh-vien" name="idlichtiem" placeholder="Nhập vào đây" required
+                      value="@Model.Id"  class="w-full p-2 border border-gray-300 rounded" >
                 </div>
                 <div class="form-group">
-                    <label for="ngay-tiem" class="mb-2 block text-left font-bold">Ngày tiêm</label>
-                    <input id="ngay-tiem" name="Ngày tiêm" required value="26/6/2024"
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
+                    <input type="text" id="ten-thanh-vien" name="fullname" placeholder="Nhập vào đây" required
+                      value="@Model.Hoten"  class="w-full p-2 border border-gray-300 rounded" >
                 </div>
                 <div class="form-group">
-                    <label for="loai-vac-xin" class="mb-2 block text-left font-bold">Loại Vắc-xin</label>
-                    <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required
-                        value="Corona" class="w-full rounded border border-gray-300 p-2" />
+                    <label for="ngay-tiem" class="block text-left mb-2 font-bold">Ngày tiêm</label>
+                    <input type="date" id="ngay-tiem" name="ngay_tiem" required
+                      value="@Model.NgayTiem"  class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="loai-tiem" class="mb-2 block text-left font-bold">Loại tiêm</label>
-                    <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required value="Virus"
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="loai-vac-xin" class="block text-left mb-2 font-bold">Loại Vắc-xin</label>
+                    <input type="text" id="loai-vac-xin" name="loai_vac_xin" placeholder="Nhập vào đây" required
+                    value="@Model.LoaiVacxin"    class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="dia-diem-tiem" class="mb-2 block text-left font-bold">Địa điểm tiêm</label>
-                    <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
-                        value="Hồ Chí Minh" class="w-full rounded border border-gray-300 p-2" />
+                    <label for="dia-diem-tiem" class="block text-left mb-2 font-bold">Địa điểm tiêm</label>
+                    <input type="text" id="dia-diem-tiem" name="dia_diem" placeholder="Nhập vào đây" required
+                     value="@Model.DiadiemTiem"   class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="chi-phi" class="mb-2 block text-left font-bold">Chi phí</label>
-                    <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" value="500.000 đ" required
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="chi-phi" class="block text-left mb-2 font-bold">Chi phí</label>
+                    <input type="text" id="chi-phi" name="chi_phi" placeholder="Nhập vào đây" required
+                      value="@Model.ChiPhi"  class="w-full p-2 border border-gray-300 rounded">
                 </div>
-                <div class="mt-4 flex w-full justify-between">
-                    <input type="submit" value="Ghi chú"
-                        class="mr-2 w-1/2 cursor-pointer rounded bg-blue-500 p-2 text-white hover:bg-blue-600" />
+                <div class="form-group">
+                    <label for="ghi-chu" class="block text-left mb-2 font-bold">Ghi chú</label>
+                    <input id="ghi-chu" name="ghi_chu" placeholder="Nhập vào đây"
+                     value="@Model.GhiChu"   class="w-full p-2 border border-gray-300 rounded"></input>
+                </div>
+                <div class="form-group">
+                    <label for="mo-ta" class="block text-left mb-2 font-bold">Mô tả</label>
+                    <input id="mo-ta" name="mo_ta" placeholder="Nhập vào đây"
+                      value="@Model.Mota"  class="w-full p-2 border border-gray-300 rounded"></input>
+                </div>
+                <div class="form-group">
+                    <label for="tinh_trang" class="block text-left mb-2 font-bold">Tình Trạng</label>
+                    <input id="tinh_trang" name="tinh_trang" placeholder="Nhập vào đây"
+                     value="@Model.TinhTrang"   class="w-full p-2 border border-gray-300 rounded"></input>
+                </div>
+                <div class="flex justify-between w-full mt-4">
                     <input type="submit" value="Sửa"
-                        class="ml-2 w-1/2 cursor-pointer rounded bg-green-500 p-2 text-white hover:bg-green-600" />
+                      class="w-1/2 p-2 ml-2 bg-green-500 text-white rounded cursor-pointer hover:bg-green-600">
                 </div>
             </form>
         </div>
     </div>
 </body>
+<script>
+    document.getElementById('editLichTiemForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var formData = new FormData();
+        formData.append('idlichtiem', document.querySelector('input[name="idlichtiem"]').value);
+        formData.append('fullname', document.querySelector('input[name="fullname"]').value);
+        formData.append('ngay_tiem', document.querySelector('input[name="ngay_tiem"]').value);
+        formData.append('loai_vac_xin', document.querySelector('input[name="loai_vac_xin"]').value);
+        formData.append('dia_diem', document.querySelector('input[name="dia_diem"]').value);
+        formData.append('chi_phi', document.querySelector('input[name="chi_phi"]').value);
+        formData.append('ghi_chu', document.querySelector('input[name="ghi_chu"]').value);
+        formData.append('mo_ta', document.querySelector('input[name="mo_ta"]').value);
+        formData.append('tinh_trang', document.querySelector('input[name="tinh_trang"]').value);
+
+        fetch('/health/editlichtiem', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    location.reload();
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi khi gửi yêu cầu:', error);
+                alert('Lỗi khi gửi yêu cầu.');
+            });
+    });
+</script>

@@ -118,7 +118,11 @@ VALUES  (@Hoten, @Username, @Phone, @AddressUser, @Pass, @RoleUser ,@Gender,@Age
     {
         return View();
     }
-
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        return RedirectToAction("Login", "Account");
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

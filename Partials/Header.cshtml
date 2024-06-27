@@ -49,6 +49,7 @@
             </form>
         </div>
         <div class="Orther" style="">
+
             @if (User.Identity != null && User.Identity.IsAuthenticated)
             {
                 <div>
@@ -56,8 +57,9 @@
                         Welcome, @User.Identity.Name
                     </span>
                 </div>
-
-
+                <a href="@Url.Action("Logout", "Account")" onclick="confirmLogout()">
+                    <div class="Orther-login">Đăng xuất</div>
+                </a>
             }
             else
             {
@@ -93,4 +95,9 @@
             });
         }
     });
+    function confirmLogout() {
+        if (confirm("Bạn có chắc muốn đăng xuất không?")) {
+            window.location.href = '@Url.Action("Logout", "Account")';
+        }
+    }
 </script>
