@@ -60,11 +60,19 @@ public class HealthController : Controller
     {
         return View();
     }
-    public IActionResult Chitietliyychtiem()
+    public IActionResult Chitietlichtiem()
     {
         return View();
     }
     public IActionResult Thongketiemchung()
+    {
+        return View();
+    }
+    public IActionResult Chitietphieusuckhoe()
+    {
+        return View();
+    }
+    public IActionResult Chitietphieusuckhoedinhki()
     {
         return View();
     }

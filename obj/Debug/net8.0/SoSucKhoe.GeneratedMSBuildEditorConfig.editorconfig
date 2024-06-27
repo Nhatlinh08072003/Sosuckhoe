@@ -46,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXENoaXRpZXRsaWNodGllbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Sosuckhoe/Views/Health/Chitietphieusuckhoe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXENoaXRpZXRwaGlldXN1Y2tob2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sosuckhoe/Views/Health/chitietphieusuckhoedinhki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXGNoaXRpZXRwaGlldXN1Y2tob2VkaW5oa2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Sosuckhoe/Views/Health/Dangkitiemchung.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhbHRoXERhbmdraXRpZW1jaHVuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

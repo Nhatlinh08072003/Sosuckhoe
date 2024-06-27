@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Lịch tiêm chủng";
+    ViewData["Title"] = "Chi tiết phiếu sức khỏe định kì";
 }
 
 <head>
@@ -7,10 +7,10 @@
 </head>
 
 <body>
-    <div class="flex h-screen items-center justify-center ">
+    <div class="flex  items-center justify-center ">
         <div class="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
             <div class="mb-6 text-center">
-                <span class="text-2xl font-bold">Lịch tiêm chủng</span>
+                <span class="text-2xl font-bold">Chi tiết phiếu sức khỏe định kì</span>
             </div>
             <form action="/submit-vaccination-schedule" method="post" class="flex flex-col space-y-4">
                 <div class="form-group">
@@ -23,15 +23,12 @@
                     <input id="ngay-tiem" name="Ngày tiêm" required value="26/6/2024"
                         class="w-full rounded border border-gray-300 p-2" />
                 </div>
+
+
                 <div class="form-group">
-                    <label for="loai-vac-xin" class="mb-2 block text-left font-bold">Loại Vắc-xin</label>
-                    <input type="text" id="loai-vac-xin" name="Loại Vắc-xin" placeholder="Nhập vào đây" required
-                        value="Corona" class="w-full rounded border border-gray-300 p-2" />
-                </div>
-                <div class="form-group">
-                    <label for="loai-tiem" class="mb-2 block text-left font-bold">Loại tiêm</label>
-                    <input type="text" id="loai-tiem" name="Loại tiêm" placeholder="Nhập vào đây" required value="Virus"
-                        class="w-full rounded border border-gray-300 p-2" />
+                    <label for="dia-diem-tiem" class="mb-2 block text-left font-bold">Địa điểm tiêm</label>
+                    <input type="text" id="dia-diem-tiem" name="Địa điểm tiêm" placeholder="Nhập vào đây" required
+                        value="Hồ Chí Minh" class="w-full rounded border border-gray-300 p-2" />
                 </div>
                 <div class="form-group">
                     <label for="dia-diem-tiem" class="mb-2 block text-left font-bold">Địa điểm tiêm</label>
@@ -39,8 +36,23 @@
                         value="Hồ Chí Minh" class="w-full rounded border border-gray-300 p-2" />
                 </div>
                 <div class="form-group">
-                    <label for="chi-phi" class="mb-2 block text-left font-bold">Chi phí</label>
-                    <input type="text" id="chi-phi" name="Chi phí" placeholder="Nhập vào đây" value="500.000 đ" required
+                    <label for="Huyet-ap" class="mb-2 block text-left font-bold">Huyết áp</label>
+                    <input type="text" id="huyet-ap" name="huyết áp" placeholder="Nhập vào đây" value="130 mhg" required
+                        class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="nhip-tim" class="mb-2 block text-left font-bold">Nhịp tim</label>
+                    <input type="text" id="nhip-tim" name="nhịp tim" placeholder="Nhập vào đây" value="90 nhịp/tim"
+                        required class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="chieu-cao" class="mb-2 block text-left font-bold">Chiều cao</label>
+                    <input type="text" id="chieu-cao" name="chiều cao" placeholder="Nhập vào đây" value="1m60" required
+                        class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <div class="form-group">
+                    <label for="can-nang" class="mb-2 block text-left font-bold">Cân nặng</label>
+                    <input type="text" id="can-nang" name="cân nặng" placeholder="Nhập vào đây" value="50kg" required
                         class="w-full rounded border border-gray-300 p-2" />
                 </div>
                 <div class="mt-4 flex w-full justify-between">

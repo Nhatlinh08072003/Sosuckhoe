@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Phiếu khám sức khỏe";
+    ViewData["Title"] = " Chi tiết phiếu khám sức khỏe";
 }
 
 <head>
@@ -10,66 +10,71 @@
     <div class="flex items-center justify-center bg-gray-100 min-h-screen">
         <div class="w-full max-w-screen-xl p-6 bg-white shadow-lg rounded-lg">
             <div class="mb-6 text-center">
-                <span class="text-2xl font-bold">Phiếu khám sức khỏe</span>
+                <span class="text-2xl font-bold">Chi tiết phiếu khám sức khỏe</span>
             </div>
             <form action="/submit-medical-exam" method="post" enctype="multipart/form-data"
                 class="flex flex-col space-y-4">
                 <div class="form-group">
                     <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
-                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
-                        class="w-full p-2 border border-gray-300 rounded">
+                    <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" value="Lê Tiên Nhất Linh"
+                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="ngay-kham" class="block text-left mb-2 font-bold">Ngày khám bệnh</label>
-                    <input type="date" id="ngay-kham" name="Ngày khám bệnh" required
+                    <input value="27/06/2024" id="ngay-kham" name="Ngày khám bệnh" required
                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="ten-benh" class="block text-left mb-2 font-bold">Tên bệnh</label>
-                    <input type="text" id="ten-benh" name="Tên bệnh" placeholder="Nhập vào đây" required
+                    <input type="text" id="ten-benh" value="Cảm cúm" name="Tên bệnh" placeholder="Nhập vào đây" required
                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="loai-benh" class="block text-left mb-2 font-bold">Loại bệnh</label>
-                    <input type="text" id="loai-benh" name="Loại bệnh" placeholder="Nhập vào đây" required
+                    <input type="text" id="loai-benh" value="Cảm" name="Loại bệnh" placeholder="Nhập vào đây" required
                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="trieu-chung" class="block text-left mb-2 font-bold">Triệu chứng</label>
-                    <textarea id="trieu-chung" name="Triệu chứng" placeholder="Nhập vào đây"
-                        class="w-full p-2 border border-gray-300 rounded"></textarea>
+                    <input type="text" id="trieu-chung " value=" Ho,hắt xì" name="triệu chứng "
+                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
+
                 <div class="form-group">
                     <label for="dia-diem-kham" class="block text-left mb-2 font-bold">Địa điểm khám bệnh</label>
-                    <input type="text" id="dia-diem-kham" name="Địa điểm khám bệnh" placeholder="Nhập vào đây" required
-                        class="w-full p-2 border border-gray-300 rounded">
+                    <input type="text" id="dia-diem-kham" value="Hồ Chí Minh" name="Địa điểm khám bệnh"
+                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
-                    <label for="dinh-benh" class="block text-left mb-2 font-bold">Định bệnh</label>
-                    <textarea id="dinh-benh" name="Định bệnh" placeholder="Nhập vào đây"
-                        class="w-full p-2 border border-gray-300 rounded"></textarea>
+                    <label for="Tình trạng bệnh" class="block text-left mb-2 font-bold">Tình trạng bệnh </label>
+                    <input type="text" id="tình trạng bệnh " value="Nhẹ" name="Tình trạng bệnh"
+                        placeholder="Nhập vào đây" required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="mo-ta-toa-thuoc" class="block text-left mb-2 font-bold">Mô tả toa thuốc</label>
-                    <textarea id="mo-ta-toa-thuoc" name="Mô tả toa thuốc" placeholder="Nhập vào đây"
-                        class="w-full p-2 border border-gray-300 rounded"></textarea>
+                    <input type="text" id="mo-ta-toa-thuoc" value="Thường thì là 1-2 thìa cà phê (5-10 ml) mỗi 4-6 giờ.
+Trẻ em: Liều lượng cho trẻ em thường ít hơn người lớn và phụ thuộc vào tuổi và cân nặng của trẻ."
+                        name="Tình trạng bệnh" placeholder="Nhập vào đây" required
+                        class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="ten-bac-si" class="block text-left mb-2 font-bold">Tên Bác sĩ</label>
-                    <input type="text" id="ten-bac-si" name="Tên Bác sĩ" placeholder="Nhập vào đây" required
-                        class="w-full p-2 border border-gray-300 rounded">
+                    <input type="text" id="ten-bac-si" value="Nguyễn Văn A" name="Tên Bác sĩ" placeholder="Nhập vào đây"
+                        required class="w-full p-2 border border-gray-300 rounded">
                 </div>
                 <div class="form-group">
                     <label for="hinh-anh" class="block text-left mb-2 font-bold">Hình ảnh</label>
                     <input type="file" id="hinh-anh" name="Hình ảnh" accept="image/*"
                         class="border border-gray-300 rounded">
-                    <img id="preview-image" src="#" alt="Preview Image" class="mt-2" style="display: none;" />
+                    <img id="preview-image" src="duong-dan-toi-hinh-anh-mac-dinh.jpg" alt="Preview Image"
+                        class="mt-2" />
                 </div>
+
 
                 <div class="flex justify-between w-full mt-4">
                     <input type="submit" value="Ghi chú"
                         class="w-1/2 p-2 mr-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-600">
-                    <input type="submit" value="Lưu"
+                    <input type="submit" value="Sửa"
                         class="w-1/2 p-2 ml-2 bg-green-500 text-white rounded cursor-pointer hover:bg-green-600">
                 </div>
             </form>
@@ -84,7 +89,6 @@
             reader.onload = function (e) {
                 const previewImage = document.getElementById('preview-image');
                 previewImage.src = e.target.result;
-                previewImage.style.display = 'block';
             };
             reader.readAsDataURL(file);
         }
