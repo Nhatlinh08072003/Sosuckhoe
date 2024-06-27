@@ -9,8 +9,6 @@ public partial class PhieuDinhKy
 
     public int? PersonId { get; set; }
 
-    public TimeSpan? Thoigian { get; set; }
-
     public int? HuyetAp { get; set; }
 
     public int? NhipTim { get; set; }
@@ -18,8 +16,9 @@ public partial class PhieuDinhKy
     public double? ChieuCao { get; set; }
 
     public double? CanNang { get; set; }
+    public string? Hoten { get; set; }
 
-    public string? NgayKham { get; set; }
+    public DateTime? NgayKham { get; set; }
 
     public virtual Person? Person { get; set; }
 }

@@ -9,7 +9,7 @@ public partial class PhieuSucKhoe
 
     public int? PersonId { get; set; }
 
-    public string? NgayKham { get; set; }
+    public DateTime? NgayKham { get; set; }
 
     public string? Diadiem { get; set; }
 

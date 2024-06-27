@@ -3681,7 +3681,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\letie\\.nuget\\packages\\": {}
+    "C:\\Users\\kimla\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3689,11 +3689,11 @@
       "projectUniqueName": "D:\\Sosuckhoe\\SoSucKhoe.csproj",
       "projectName": "SoSucKhoe",
       "projectPath": "D:\\Sosuckhoe\\SoSucKhoe.csproj",
-      "packagesPath": "C:\\Users\\letie\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\kimla\\.nuget\\packages\\",
       "outputPath": "D:\\Sosuckhoe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\letie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kimla\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3713,11 +3713,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3762,7 +3757,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

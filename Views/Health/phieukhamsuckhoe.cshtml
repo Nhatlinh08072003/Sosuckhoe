@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Thông tin khám bệnh";
+    ViewData["Title"] = "Phiếu khám sức khỏe";
 }
 
 <head>
@@ -10,9 +10,10 @@
     <div class="flex items-center justify-center bg-gray-100 min-h-screen">
         <div class="w-full max-w-screen-xl p-6 bg-white shadow-lg rounded-lg">
             <div class="mb-6 text-center">
-                <span class="text-2xl font-bold">Thông tin khám bệnh</span>
+                <span class="text-2xl font-bold">Phiếu khám sức khỏe</span>
             </div>
-            <form action="/submit-medical-exam" method="post" enctype="multipart/form-data" class="flex flex-col space-y-4">
+            <form action="/submit-medical-exam" method="post" enctype="multipart/form-data"
+                class="flex flex-col space-y-4">
                 <div class="form-group">
                     <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
                     <input type="text" id="ten-thanh-vien" name="Tên Thành Viên" placeholder="Nhập vào đây" required
@@ -60,7 +61,8 @@
                 </div>
                 <div class="form-group">
                     <label for="hinh-anh" class="block text-left mb-2 font-bold">Hình ảnh</label>
-                    <input type="file" id="hinh-anh" name="Hình ảnh" accept="image/*" class="border border-gray-300 rounded">
+                    <input type="file" id="hinh-anh" name="Hình ảnh" accept="image/*"
+                        class="border border-gray-300 rounded">
                 </div>
                 <div class="flex justify-between w-full mt-4">
                     <input type="submit" value="Ghi chú"

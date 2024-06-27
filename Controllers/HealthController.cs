@@ -1,18 +1,29 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SoSucKhoe.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using SoSucKhoe.Models.Main;
+using SoSucKhoe.ViewModels;
+using Microsoft.EntityFrameworkCore;
+using System.Data.SqlClient;
 
 namespace SoSucKhoe.Controllers;
 
 public class HealthController : Controller
 {
-    private readonly ILogger<HealthController> _logger;
+    private readonly SosuckhoeDbContext _sosuckhoeDbContext;
+    private readonly IHttpContextAccessor _httpContext;
+    private readonly IConfiguration _configuration;
 
-    public HealthController(ILogger<HealthController> logger)
+    // Constructor
+    public HealthController(SosuckhoeDbContext sosuckhoeDbContext, IHttpContextAccessor httpContextAccessor, IConfiguration configuration)
     {
-        _logger = logger;
+        _sosuckhoeDbContext = sosuckhoeDbContext;
+        _httpContext = httpContextAccessor;
+        _configuration = configuration;
     }
-
     public IActionResult Thongtinsuckhoe()
     {
         return View();
@@ -59,11 +70,13 @@ public class HealthController : Controller
     }
     public IActionResult Thongkephieusuckhoe()
     {
-        return View();
+        var phieusuckhoe = _sosuckhoeDbContext.PhieuSucKhoes.ToList();
+        return View(phieusuckhoe);
     }
     public IActionResult Thongkesuckhoedinhki()
     {
-        return View();
+        var phieudinhky = _sosuckhoeDbContext.PhieuDinhKies.ToList();
+        return View(phieudinhky);
     }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
