@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HZguNV6bjieFfePQ++hgGZ9M3/vQWw++LGTYEn2vKK0=",
+  "Hash": "2jFhhNNpxkN4QMvmnhs7dVhHmgEMAGMk5Z/AJVdp0hw=",
   "Source": "SoSucKhoe",
   "BasePath": "_content/SoSucKhoe",
   "Mode": "Default",
@@ -604,6 +604,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\f9ded60a-6ebf-485c-af46-af56f164a3ba_th (4).jpg"
+    },
+    {
+      "Identity": "D:\\Sosuckhoe\\wwwroot\\js\\chart.js",
+      "SourceId": "SoSucKhoe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Sosuckhoe\\wwwroot\\",
+      "BasePath": "_content/SoSucKhoe",
+      "RelativePath": "js/chart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chart.js"
     },
     {
       "Identity": "D:\\Sosuckhoe\\wwwroot\\js\\site.js",

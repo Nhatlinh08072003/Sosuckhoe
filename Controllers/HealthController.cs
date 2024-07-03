@@ -9,6 +9,7 @@ using SoSucKhoe.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using System.Data.SqlClient;
 
+
 namespace SoSucKhoe.Controllers;
 
 public class HealthController : Controller

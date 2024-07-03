@@ -1,17 +1,18 @@
+@using System.Globalization
 @model List<SoSucKhoe.Models.Main.PhieuDinhKy>
 @{
     ViewData["Title"] = "Thống kê sức khỏe định kì";
 }
 <link rel="stylesheet" href="~/css/thongketiemchung.css">
 
-<body>
+<!-- Nhúng thư viện Chart.js từ CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+<body>
     <h1 class="title-statistics-vaccin">Thống kê sức khỏe định kì</h1>
     @foreach (var item in Model)
     {
-
         <div class="statistics-vaccin">
-
             <div style="display: flex; gap:30px">
                 <div class="info-statistics-vaccin" style="gap:5px">
                     <p class="name" style="font-weight: 700">Họ và tên: </p>
@@ -21,8 +22,48 @@
             <div class="info-statistics-vaccin" style="gap:5px">
                 <p class="date" style="font-weight: 700">Ngày khám:</p>
                 <p class="date-user">@item.NgayKham</p>
-                <button class="button-detail"><a href="/chitietphieusuckhoedinhki/@item.Id"> Xem chi tiết</a></button>
+                <button class="button-detail"><a href="/chitietphieusuckhoedinhki/@item.Id">Xem chi tiết</a></button>
+            </div>
+            <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+                <canvas id="chart-@item.Id"></canvas>
             </div>
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Dữ liệu biểu đồ
+                var chartData_@item.Id = {
+                    labels: ['Chiều cao', 'Cân nặng'],
+                        datasets: [{
+                            label: 'Giá trị',
+                            data: [@item.ChieuCao, @item.CanNang],
+                            backgroundColor: [
+                                'rgba(54, 162, 235, 0.2)',
+                                'rgba(255, 99, 132, 0.2)',
+                            ],
+                            borderColor: [
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(255, 99, 132, 1)',
+                            ],
+                            borderWidth: 1
+                        }]
+                };
+
+                // Lấy context của canvas
+                var ctx_@item.Id = document.getElementById('chart-@item.Id').getContext('2d');
+
+                // Vẽ biểu đồ cột
+                var myChart_@item.Id = new Chart(ctx_@item.Id, {
+                    type: 'bar',
+                    data: chartData_@item.Id,
+                    options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+                        });
+                    });
+        </script>
     }
 </body>

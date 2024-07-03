@@ -81,3 +81,5 @@ D:\Sosuckhoe\obj\Debug\net8.0\refint\SoSucKhoe.dll
 D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.pdb
 D:\Sosuckhoe\obj\Debug\net8.0\SoSucKhoe.genruntimeconfig.cache
 D:\Sosuckhoe\obj\Debug\net8.0\ref\SoSucKhoe.dll
+D:\Sosuckhoe\bin\Debug\net8.0\package-lock.json
+D:\Sosuckhoe\bin\Debug\net8.0\package.json
