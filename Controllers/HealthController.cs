@@ -428,7 +428,18 @@ VALUES   (@PersonId, @HuyetAp, @NhipTim, @ChieuCao, @CanNang, @NgayKham,@Hoten)"
     }
     public IActionResult Thongketiemchung()
     {
-        var lichtiem = _sosuckhoeDbContext.Lichtiems.ToList();
+        // Lấy giá trị PersonId từ claims
+        var personIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        if (personIdClaim == null)
+        {
+            return Unauthorized(); // Hoặc một hành động thích hợp khác nếu không tìm thấy PersonId
+        }
+
+        int personId = int.Parse(personIdClaim.Value);
+
+        var lichtiem = _sosuckhoeDbContext.Lichtiems
+                            .Where(p => p.PersonId == personId)
+                            .ToList();
         return View(lichtiem);
     }
     [Route("chitietphieusuckhoe/{id}")]
@@ -464,12 +475,34 @@ VALUES   (@PersonId, @HuyetAp, @NhipTim, @ChieuCao, @CanNang, @NgayKham,@Hoten)"
     }
     public IActionResult Thongkephieusuckhoe()
     {
-        var phieusuckhoe = _sosuckhoeDbContext.PhieuSucKhoes.ToList();
+        // Lấy giá trị PersonId từ claims
+        var personIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        if (personIdClaim == null)
+        {
+            return Unauthorized(); // Hoặc một hành động thích hợp khác nếu không tìm thấy PersonId
+        }
+
+        int personId = int.Parse(personIdClaim.Value);
+
+        var phieusuckhoe = _sosuckhoeDbContext.PhieuSucKhoes
+                            .Where(p => p.PersonId == personId)
+                            .ToList();
         return View(phieusuckhoe);
     }
     public IActionResult Thongkesuckhoedinhki()
     {
-        var phieudinhky = _sosuckhoeDbContext.PhieuDinhKies.ToList();
+        // Lấy giá trị PersonId từ claims
+        var personIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        if (personIdClaim == null)
+        {
+            return Unauthorized(); // Hoặc một hành động thích hợp khác nếu không tìm thấy PersonId
+        }
+
+        int personId = int.Parse(personIdClaim.Value);
+
+        var phieudinhky = _sosuckhoeDbContext.PhieuDinhKies
+                            .Where(p => p.PersonId == personId)
+                            .ToList();
         return View(phieudinhky);
     }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -9,6 +9,82 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <body>
+    <H4>Biểu đồ Chiều Cao và Ngày Khám</H4>
+    <div>
+        <canvas id="myChart" width="400" height="100"></canvas>
+    </div>
+
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.Select(m => m.NgayKham))),
+                datasets: [{
+                    label: 'Chiều Cao',
+                    data: @Html.Raw(Json.Serialize(Model.Select(m => m.ChieuCao))),
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Ngày Khám'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Chiều Cao (cm)'
+                        },
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <H4>Biểu đồ Cân Nặng và Ngày Khám</H4>
+    <div>
+        <canvas id="myChartweght" width="400" height="100"></canvas>
+    </div>
+
+    <script>
+        var ctx = document.getElementById('myChartweght').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.Select(m => m.NgayKham))),
+                datasets: [{
+                    label: 'Chiều Cao',
+                    data: @Html.Raw(Json.Serialize(Model.Select(m => m.CanNang))),
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Ngày Khám'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Cân nặng (kg)'
+                        },
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
     <h1 class="title-statistics-vaccin">Thống kê sức khỏe định kì</h1>
     @foreach (var item in Model)
     {
@@ -62,8 +138,8 @@
                         }
                     }
                 }
-                        });
-                    });
+                                                                                            });
+                                                                                        });
         </script>
     }
 </body>
