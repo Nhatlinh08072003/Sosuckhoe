@@ -17,6 +17,10 @@ public partial class PhieuDinhKy
 
     public double? CanNang { get; set; }
     public string? Hoten { get; set; }
+    public string? HinhPhieuKham { get; set; }
+    public string? GhiChu { get; set; }
+
+
 
     public string? NgayKham { get; set; }
 

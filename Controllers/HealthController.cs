@@ -369,7 +369,10 @@ VALUES  (@PersonId, @NgayKham, @Diadiem, @TenBenh, @ChiPhi, @LuuY, @LoaiBenh, @T
   [FromForm] string huyet_ap,
   [FromForm] string nhip_tim,
   [FromForm] string chieu_cao,
-  [FromForm] string can_nang)
+  [FromForm] string can_nang,
+  [FromForm] string ghi_chu,
+   [FromForm] IFormFile phieu_kham_image
+  )
     {
         if (ModelState.IsValid)
         {
@@ -381,13 +384,14 @@ VALUES  (@PersonId, @NgayKham, @Diadiem, @TenBenh, @ChiPhi, @LuuY, @LoaiBenh, @T
                     return Json(new { success = false, message = "Không tìm thấy thông tin người dùng." });
                 }
                 var userId = int.Parse(userIdClaim.Value);
+                string imageUrl = await SaveImageAsync(phieu_kham_image);
                 using (SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("SosuckhoeConnectionString")))
                 {
                     await connection.OpenAsync();
 
                     string sql = @"
-                    INSERT INTO PhieuDinhKy (PersonId, HuyetAp, NhipTim, ChieuCao, CanNang, NgayKham,Hoten)
-VALUES   (@PersonId, @HuyetAp, @NhipTim, @ChieuCao, @CanNang, @NgayKham,@Hoten)";
+                    INSERT INTO PhieuDinhKy (PersonId, HuyetAp, NhipTim, ChieuCao, CanNang, NgayKham,Hoten,GhiChu,HinhPhieuKham)
+VALUES   (@PersonId, @HuyetAp, @NhipTim, @ChieuCao, @CanNang, @NgayKham,@Hoten,@GhiChu,@HinhPhieuKham)";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
@@ -398,6 +402,8 @@ VALUES   (@PersonId, @HuyetAp, @NhipTim, @ChieuCao, @CanNang, @NgayKham,@Hoten)"
                         command.Parameters.AddWithValue("@CanNang", Double.Parse(can_nang));
                         command.Parameters.AddWithValue("@NgayKham", ngay_kham);
                         command.Parameters.AddWithValue("@Hoten", fullname);
+                        command.Parameters.AddWithValue("@GhiChu", ghi_chu);
+                        command.Parameters.AddWithValue("@HinhPhieuKham", imageUrl);
                         await command.ExecuteNonQueryAsync();
                     }
                 }

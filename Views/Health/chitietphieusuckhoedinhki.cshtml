@@ -49,6 +49,17 @@
                     <input type="text" id="can-nang" name="can_nang" placeholder="Nhập vào đây" required  value="@Model.CanNang"
                         class="w-full p-2 border border-gray-300 rounded">
                 </div>
+                 <div class="form-group">
+                    <label for="ghi-chu" class="block text-left mb-2 font-bold">ghi chú</label>
+                    <input type="text" id="ghi-chu" name="luu_y" placeholder="Nhập vào đây" value="@Model.GhiChu" required
+                        class="w-full rounded border border-gray-300 p-2" />
+                </div>
+                <label for="hinh-anh" class="block text-left mb-2 font-bold">Hình phiếu khám</label>
+                <div class="form-group">
+                    <input type="file" id="uploadImageInput" name="toathuoc_image" style="display: none;">
+                    <img src="@Model.HinhPhieuKham" loading="lazy" alt="Add" title="Add" width="200" height="200"
+                        id="addImageIcon">
+                </div>
                 <div class="mt-4 flex w-full justify-between">
                     <input type="submit" value="Sửa"
                         class="ml-2 w-1/2 cursor-pointer rounded bg-green-500 p-2 text-white hover:bg-green-600" />
