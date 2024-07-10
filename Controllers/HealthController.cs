@@ -41,7 +41,20 @@ public class HealthController : Controller
     }
     public IActionResult Lichtiemchung()
     {
-        return View();
+        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        if (userIdClaim == null)
+        {
+            return Json(new { success = false, message = "Không tìm thấy thông tin người dùng." });
+        }
+        var userId = int.Parse(userIdClaim.Value);
+
+        // Truy vấn một đối tượng Person duy nhất bằng userId
+        var person = _sosuckhoeDbContext.People.FirstOrDefault(p => p.Id == userId);
+        if (person == null)
+        {
+            return NotFound();
+        }
+        return View(person);
     }
     [HttpPost("/health/addlichtiem")]
     public async Task<IActionResult> AddLichTiem(
@@ -156,7 +169,20 @@ VALUES   (@PersonId, @NgayTiem, @LoaiVacxin, @DiadiemTiem, @TinhTrang, @Mota, @G
     }
     public IActionResult Phieukhamsuckhoe()
     {
-        return View();
+        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        if (userIdClaim == null)
+        {
+            return Json(new { success = false, message = "Không tìm thấy thông tin người dùng." });
+        }
+        var userId = int.Parse(userIdClaim.Value);
+
+        // Truy vấn một đối tượng Person duy nhất bằng userId
+        var person = _sosuckhoeDbContext.People.FirstOrDefault(p => p.Id == userId);
+        if (person == null)
+        {
+            return NotFound();
+        }
+        return View(person);
     }
     [HttpPost("/health/addsuckhoe")]
     public async Task<IActionResult> AddSucKhoe(
@@ -321,7 +347,20 @@ VALUES  (@PersonId, @NgayKham, @Diadiem, @TenBenh, @ChiPhi, @LuuY, @LoaiBenh, @T
 
     public IActionResult Phieusuckhoedinhki()
     {
-        return View();
+        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+        if (userIdClaim == null)
+        {
+            return Json(new { success = false, message = "Không tìm thấy thông tin người dùng." });
+        }
+        var userId = int.Parse(userIdClaim.Value);
+
+        // Truy vấn một đối tượng Person duy nhất bằng userId
+        var person = _sosuckhoeDbContext.People.FirstOrDefault(p => p.Id == userId);
+        if (person == null)
+        {
+            return NotFound();
+        }
+        return View(person);
     }
     [HttpPost("/health/adddinhki")]
     public async Task<IActionResult> AddDinhKi(

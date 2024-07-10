@@ -1,3 +1,4 @@
+@model SoSucKhoe.Models.Main.Person
 @{
     ViewData["Title"] = "Phiếu sức khỏe định kỳ";
 }
@@ -15,8 +16,8 @@
             <form id="addDinhKiForm" method="post" enctype="multipart/form-data" action="/health/adddinhki">
                 <div class="form-group">
                     <label for="ten-thanh-vien" class="block text-left mb-2 font-bold">Tên Thành Viên</label>
-                    <input type="text" id="ten-thanh-vien" name="fullname" placeholder="Nhập vào đây" value="" required
-                        class="w-full p-2 border border-gray-300 rounded">
+                    <input type="text" id="ten-thanh-vien" name="fullname" placeholder="Nhập vào đây"
+                        value="@Model.Hoten" required class="w-full p-2 border border-gray-300 rounded" readonly>
                 </div>
                 <div class="form-group">
                     <label for="ngay" class="block text-left mb-2 font-bold">Ngày</label>

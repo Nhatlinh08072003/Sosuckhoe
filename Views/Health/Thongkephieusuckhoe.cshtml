@@ -1,10 +1,79 @@
+@using System.Globalization
 @model List<SoSucKhoe.Models.Main.PhieuSucKhoe>
 @{
     ViewData["Title"] = "Thống kê phiếu sức khoẻ";
 }
 <link rel="stylesheet" href="~/css/thongkephieusuckhoe.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <body>
+    <h4>Biểu đồ các ngày bị bệnh</h4>
+    <div>
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+
+        // Prepare data
+        var labels = @Html.Raw(Json.Serialize(Model.Select(m => m.NgayKham)));
+        var data = @Html.Raw(Json.Serialize(Model.Select(m => m.TenBenh)));
+
+        // Group data by date
+        var groupedData = {};
+        labels.forEach((label, index) => {
+            if (!groupedData[label]) {
+                groupedData[label] = [];
+            }
+            groupedData[label].push(data[index]);
+        });
+
+        var dates = Object.keys(groupedData);
+        var diseases = dates.map(date => groupedData[date].join(", "));
+
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: dates,
+                datasets: [{
+                    label: 'Các loại bệnh',
+                    data: diseases.map((_, index) => index + 1), // Just creating sequential data for bar heights
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return diseases[context.dataIndex];
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Ngày Khám'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Số thứ tự'
+                        },
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1,
+                            callback: function (value) { return value; }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
     <h1 class="title-card-vaccin">Thống kê phiếu sức khoẻ</h1>
     @foreach (var item in Model)
     {
